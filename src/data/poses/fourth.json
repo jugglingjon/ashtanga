@@ -1,0 +1,301 @@
+{
+  "mula-bandhasana": {
+    "sanskrit": "Mula Bandhasana",
+    "english": "Root Lock Pose",
+    "meaning": "Root lock",
+    "drishti": "Nasagrai (tip of the nose)",
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bring the soles together and draw the heels under the perineum, turning the feet so the heels point forward; press the hands down and lift the chest", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Turn the feet from the ankles gradually; never force the knees.",
+      "Lift the chest and keep the spine upright."
+    ],
+    "modifications": [
+      "Practice Baddha Konasana.",
+      "Sit on a blanket with the heels in front of the body."
+    ]
+  },
+  "nahusasana": {
+    "sanskrit": "Nahusasana A–C",
+    "english": "Nahusha's Pose",
+    "meaning": "Posture dedicated to King Nahusha",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "pending": true,
+    "note": "Three lunge-based variations that differ in arm position (for example reverse prayer in A and Jnana Mudra in B). Teachers present these differently. Learn them from your teacher.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, step the right foot forward into the lunge and take the arm position", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Step the left foot forward and repeat", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "vrschikasana": {
+    "sanskrit": "Vrschikasana",
+    "english": "Scorpion Pose",
+    "meaning": "Scorpion",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, lift into a forearm or hand balance" },
+      { "b": "ex", "m": "Bend the knees and arch the back, bringing the feet toward the head", "h": 5 },
+      { "b": "in", "m": "Return to the balance" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Lift the chest forward between the arms as the feet lower.",
+      "Keep the shoulders over the elbows (or wrists).",
+      "Lower the feet slowly with control."
+    ],
+    "modifications": [
+      "Practice Pincha Mayurasana.",
+      "Practice against a wall, walking the feet down."
+    ]
+  },
+  "shayanasana": {
+    "sanskrit": "Shayanasana",
+    "english": "Reclining Balance Pose",
+    "meaning": "Reclining",
+    "drishti": "Nasagrai (tip of the nose)",
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, lift into the forearm balance and lower into Shayanasana", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "buddhasana": {
+    "sanskrit": "Buddhasana",
+    "english": "Buddha's Pose",
+    "meaning": "Posture dedicated to the Buddha",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right foot behind the head and bind the hands behind the back", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; left foot behind the head and bind", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the thigh outward from the hip before taking the foot back.",
+      "Never pull on the knee."
+    ],
+    "modifications": [
+      "Practice Eka Pada Sirsasana."
+    ]
+  },
+  "kapilasana": {
+    "sanskrit": "Kapilasana",
+    "english": "Kapila's Pose",
+    "meaning": "Posture dedicated to the sage Kapila",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right foot behind the head and bind" },
+      { "b": "ex", "m": "Fold forward over the extended leg", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; take the left foot behind the head and bind" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the bind secure before folding.",
+      "Fold from the hips over the extended leg."
+    ],
+    "modifications": [
+      "Practice Eka Pada Sirsasana B."
+    ]
+  },
+  "akarna-dhanurasana": {
+    "sanskrit": "Akarna Dhanurasana",
+    "english": "Archer Pose",
+    "meaning": "Bow drawn to the ear",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; hold both big toes; draw the right foot back toward the right ear like drawing a bow", "h": 5 },
+      { "b": "in", "m": "Release; draw the left foot toward the left ear", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the extended leg straight and grounded.",
+      "Lift the drawn foot up and back; keep the chest lifted.",
+      "Keep both sit bones grounded."
+    ],
+    "modifications": [
+      "Bend the extended knee.",
+      "Draw the foot only partway."
+    ]
+  },
+  "padangustha-dhanurasana": {
+    "sanskrit": "Padangustha Dhanurasana",
+    "english": "Big-Toe Bow Pose",
+    "meaning": "Big-toe bow",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly; reach the hands back over the shoulders to hold the big toes, elbows pointing up; lift the chest and legs", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the shoulders so the elbows point up.",
+      "Kick the feet up into the hands to lift.",
+      "Keep the knees from splaying apart."
+    ],
+    "modifications": [
+      "Practice Dhanurasana.",
+      "Use a strap around the feet."
+    ]
+  },
+  "marichyasana-e-h": {
+    "sanskrit": "Marichyasana E–H",
+    "english": "Marichi's Pose E–H",
+    "meaning": "Postures dedicated to the sage Marichi",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "pending": true,
+    "note": "Four advanced variations of Marichyasana that combine lotus, binds and deeper twists. The details vary between teachers.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; set up the variation on the right side and bind", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; set up the variation on the left side and bind", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ]
+  },
+  "taraksvasana": {
+    "sanskrit": "Taraksvasana",
+    "english": "Taraksva's Pose",
+    "drishti": "Nasagrai (tip of the nose)",
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Enter the posture", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "lalatasana": {
+    "sanskrit": "Lalatasana",
+    "english": "Forehead Pose",
+    "meaning": "Forehead",
+    "drishti": "Nasagrai (tip of the nose)",
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Enter the posture", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "bhuja-dandasana": {
+    "sanskrit": "Bhuja Dandasana",
+    "english": "Arm Staff Pose",
+    "meaning": "Arm staff",
+    "drishti": "Nasagrai (tip of the nose)",
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Enter the arm balance", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "parsva-bhuja-dandasana": {
+    "sanskrit": "Parsva Bhuja Dandasana",
+    "english": "Side Arm Staff Pose",
+    "meaning": "Side arm staff",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "pending": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Enter the arm balance on the right side", "h": 5 },
+      { "b": "in", "m": "Change to the left side", "h": 5 },
+      "@back",
+      "@close"
+    ]
+  },
+  "kandasana": {
+    "sanskrit": "Kandasana",
+    "english": "Knot Pose",
+    "meaning": "Root (bulb)",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; hold the feet and rotate them up, drawing the soles to the navel; hands in prayer", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate from the hips, never forcing the knees or ankles.",
+      "Sit tall with the chest lifted."
+    ],
+    "modifications": [
+      "Practice Baddha Konasana or Mula Bandhasana.",
+      "Hold the feet in front of the body without rotating them."
+    ]
+  },
+  "viparita-chakrasana": {
+    "dynamic": true,
+    "sanskrit": "Viparita Chakrasana",
+    "english": "Reverse Wheel (Back Walkover)",
+    "meaning": "Reverse wheel",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, drop back into Urdhva Dhanurasana" },
+      { "b": "ex", "m": "Kick up through handstand and over to standing; repeat as instructed" },
+      { "b": "in", "m": "Come up to Samasthitih" }
+    ],
+    "alignment": [
+      "Learn under supervision. This is a dynamic, committed movement.",
+      "Keep the arms straight and strong through the handstand.",
+      "Spread the backbend through the whole spine."
+    ],
+    "modifications": [
+      "Practice drop backs to Urdhva Dhanurasana.",
+      "Kick over from Urdhva Dhanurasana with a teacher's support."
+    ]
+  },
+  "tiriang-mukhottanasana": {
+    "sanskrit": "Tiriang Mukhottanasana",
+    "english": "Backward-Facing Intense Stretch",
+    "meaning": "Reverse-facing intense stretch",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, arch back" },
+      { "b": "ex", "m": "Drop back and take hold of the calves or ankles", "h": 5 },
+      { "b": "in", "m": "Come up to standing" }
+    ],
+    "alignment": [
+      "Push the hips forward over the feet as you arch.",
+      "Walk the hands in toward the legs gradually.",
+      "Practice with a teacher's assistance."
+    ],
+    "modifications": [
+      "Practice drop backs to Urdhva Dhanurasana.",
+      "Hold the hands on the thighs and arch partway."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "third",
+  "order": 3,
+  "name": "Third Series",
+  "alt": "Advanced A",
+  "sanskrit": "Sthira Bhaga A",
+  "meaning": "Divine stability",
+  "blurb": "Builds strength, grace and humility through advanced arm balances, inversions and deep backbends.",
+  "accent": "#8b5cf6",
+  "accent2": "#ec4899",
+  "countNote": "Counts use the same full-vinyasa pattern as the Primary Series. Published counts for the advanced series vary between sources. These postures are traditionally given one at a time by a teacher.",
+  "sections": [
+    { "ref": "sun" },
+    { "ref": "standing" },
+    {
+      "id": "third-series",
+      "title": "Third Series",
+      "subtitle": "Sthira Bhaga A",
+      "poses": [
+        "vasisthasana",
+        "visvamitrasana",
+        "kasyapasana",
+        "chakorasana",
+        "bhairavasana",
+        "skandasana",
+        "durvasasana",
+        "urdhva-kukkutasana",
+        "galavasana",
+        "eka-pada-bakasana",
+        "koundinyasana",
+        "astavakrasana",
+        "purna-matsyendrasana",
+        "viranchyasana",
+        "viparita-dandasana",
+        "eka-pada-viparita-dandasana",
+        "viparita-salabhasana",
+        "ganda-bherundasana",
+        "hanumanasana",
+        "supta-trivikramasana",
+        "dighasana",
+        "trivikramasana",
+        "natarajasana",
+        "raja-kapotasana",
+        "eka-pada-raja-kapotasana"
+      ]
+    },
+    { "ref": "finishing" }
+  ]
+}

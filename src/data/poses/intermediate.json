@@ -1,0 +1,789 @@
+{
+  "pasasana": {
+    "sanskrit": "Pasasana",
+    "english": "Noose Pose",
+    "meaning": "Noose",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump the feet between the hands into a deep squat, feet and knees together, heels down" },
+      { "b": "ex", "m": "Twist to the right, wrap the left arm around the shins and bind behind the back", "h": 5 },
+      { "b": "ex", "m": "Release, twist to the left and bind", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the heels grounded and the knees together.",
+      "Lengthen the spine on the inhale and twist from the belly on the exhale.",
+      "Hook the armpit well over the outside of the knees before reaching for the bind."
+    ],
+    "modifications": [
+      "Place a rolled mat or blanket under the heels.",
+      "Hold a strap between the hands, or twist with hands in prayer."
+    ]
+  },
+  "krounchasana": {
+    "sanskrit": "Krounchasana",
+    "english": "Heron Pose",
+    "meaning": "Heron",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; fold the right leg back beside the hip, lift the left leg straight up holding the foot with both hands; look up" },
+      { "b": "ex", "m": "Draw the leg toward the face, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; fold the left leg back, lift the right leg; look up" },
+      { "b": "ex", "m": "Draw the leg toward the face, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep both sit bones grounded.",
+      "Straighten the lifted leg first, then bring it closer.",
+      "Lengthen the spine toward the leg rather than rounding."
+    ],
+    "modifications": [
+      "Loop a strap around the lifted foot.",
+      "Bend the lifted knee.",
+      "Place a folded blanket under the straight-leg hip."
+    ]
+  },
+  "shalabhasana-a": {
+    "sanskrit": "Shalabhasana A",
+    "english": "Locust Pose A",
+    "meaning": "Locust",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "Shalabhasana A and B share one count.",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly, arms alongside the body, palms up; lift the chest and the legs", "h": 5, "p": "shalabhasana-a" },
+      { "b": "in", "m": "Place the palms under the shoulders and lift the chest and legs again", "h": 5, "p": "shalabhasana-b" },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the legs together and active, toes pointed.",
+      "Lengthen forward through the crown rather than crunching the neck.",
+      "Lift from the upper back; draw the belly in to protect the lower back."
+    ],
+    "modifications": [
+      "Lift only the chest or only the legs.",
+      "Keep the legs hip-width apart."
+    ]
+  },
+  "shalabhasana-b": {
+    "sanskrit": "Shalabhasana B",
+    "english": "Locust Pose B",
+    "meaning": "Locust",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "shalabhasana-a",
+    "alignment": [
+      "Hands under the shoulders with the elbows hugging in.",
+      "Press lightly into the hands and lift with the back muscles."
+    ],
+    "modifications": [
+      "Keep the legs on the floor.",
+      "Place a folded blanket under the hips."
+    ]
+  },
+  "bhekasana": {
+    "sanskrit": "Bhekasana",
+    "english": "Frog Pose",
+    "meaning": "Frog",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly; bend the knees and place the hands on top of the feet, fingers forward; press the feet down and lift the chest", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Point the fingers forward like the toes.",
+      "Lift the elbows up and the chest forward.",
+      "Press the heels toward the floor beside the hips."
+    ],
+    "modifications": [
+      "One leg at a time (Ardha Bhekasana), propped on the opposite forearm.",
+      "Keep the chest low."
+    ]
+  },
+  "dhanurasana": {
+    "sanskrit": "Dhanurasana",
+    "english": "Bow Pose",
+    "meaning": "Bow",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly; bend the knees, hold the ankles and lift the chest and knees", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Kick the feet into the hands to lift.",
+      "Keep the knees about hip-width; don't let them splay.",
+      "Broaden across the collarbones."
+    ],
+    "modifications": [
+      "Use a strap around the ankles.",
+      "Lift one side at a time."
+    ]
+  },
+  "parsva-dhanurasana": {
+    "sanskrit": "Parsva Dhanurasana",
+    "english": "Side Bow Pose",
+    "meaning": "Side bow",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly, hold the ankles and lift into Dhanurasana" },
+      { "b": "ex", "m": "Roll onto the right side, keeping the bow", "h": 5 },
+      { "b": "in", "m": "Roll back through center" },
+      { "b": "ex", "m": "Roll onto the left side", "h": 5 },
+      { "b": "in", "m": "Roll back to center, then release" },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Keep kicking the feet into the hands as you roll.",
+      "Roll on the side of the ribs, not the shoulder."
+    ],
+    "modifications": [
+      "Rock gently side to side without rolling all the way over.",
+      "Stay in Dhanurasana."
+    ]
+  },
+  "ustrasana": {
+    "sanskrit": "Ustrasana",
+    "english": "Camel Pose",
+    "meaning": "Camel",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to kneeling, knees hip-width, hands on the hips" },
+      { "b": "ex", "m": "Lift the chest and arch back, taking the heels", "h": 5 },
+      { "b": "in", "m": "Come up, leading with the chest" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the hips over the knees.",
+      "Lift the chest up before reaching back.",
+      "Lengthen the tailbone and keep the glutes soft."
+    ],
+    "modifications": [
+      "Tuck the toes under to raise the heels.",
+      "Keep the hands on the lower back."
+    ]
+  },
+  "laghu-vajrasana": {
+    "sanskrit": "Laghu Vajrasana",
+    "english": "Little Thunderbolt Pose",
+    "meaning": "Little thunderbolt",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to kneeling; hold the ankles" },
+      { "b": "ex", "m": "Arch back and lower the crown of the head to the floor", "h": 5 },
+      { "b": "in", "m": "Use the strength of the thighs to come up" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the knees hip-width and the thighs strong.",
+      "Lower slowly with control.",
+      "Straighten the arms and lift the chest at the bottom."
+    ],
+    "modifications": [
+      "Stay in Ustrasana.",
+      "Lower partway and return."
+    ]
+  },
+  "kapotasana-a": {
+    "sanskrit": "Kapotasana A",
+    "english": "Pigeon Pose A",
+    "meaning": "Pigeon",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "Kapotasana A and B share one count.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to kneeling, hands at the chest" },
+      { "b": "ex", "m": "Arch back, place the hands down and walk them to the heels; elbows on the floor", "h": 5, "p": "kapotasana-a" },
+      { "b": "in", "m": "Straighten the arms and lift the head, hands on the floor", "h": 5, "p": "kapotasana-b" },
+      { "b": "in", "m": "Come up to kneeling" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Push the hips forward over the knees as you arch back.",
+      "Keep breathing smoothly; lift the chest toward the ceiling.",
+      "Elbows stay shoulder-width."
+    ],
+    "modifications": [
+      "Lower to the crown of the head and pause there.",
+      "Practice with a teacher's assistance.",
+      "Use a wall or blocks for the hands."
+    ]
+  },
+  "kapotasana-b": {
+    "sanskrit": "Kapotasana B",
+    "english": "Pigeon Pose B",
+    "meaning": "Pigeon",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "kapotasana-a",
+    "alignment": [
+      "Straighten the arms and lift the head, keeping the hips forward.",
+      "Spread the backbend evenly through the whole spine."
+    ],
+    "modifications": [
+      "Stay in Kapotasana A.",
+      "Hands on blocks."
+    ]
+  },
+  "supta-vajrasana": {
+    "sanskrit": "Supta Vajrasana",
+    "english": "Reclining Thunderbolt Pose",
+    "meaning": "Reclining thunderbolt",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to Padmasana and bind the toes behind the back (Baddha Padmasana)" },
+      { "b": "ex", "m": "Arch back and lower the crown of the head to the floor; repeat three times", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Arch from the upper back while the knees stay down.",
+      "Traditionally practiced with a teacher holding the knees.",
+      "Lift the chest; release the head last."
+    ],
+    "modifications": [
+      "Practice with the knees held by a teacher or anchored under a heavy bolster.",
+      "Lean back only partway."
+    ]
+  },
+  "bakasana-a": {
+    "sanskrit": "Bakasana A",
+    "english": "Crane Pose A",
+    "meaning": "Crane",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "Bakasana A and B share one count. A is entered from standing on the floor; B is jumped into from Down Dog.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Step forward, place the knees on the backs of the upper arms and lift into Bakasana", "h": 5, "p": "bakasana-a" },
+      "@back",
+      { "b": "in", "m": "Jump from Down Dog directly into Bakasana", "h": 5, "p": "bakasana-b" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Place the knees high, near the armpits.",
+      "Round the back and draw the belly in.",
+      "Straighten the arms over time; gaze slightly forward."
+    ],
+    "modifications": [
+      "Keep the elbows bent (Kakasana).",
+      "Place a block under the feet or a cushion in front of the face."
+    ]
+  },
+  "bakasana-b": {
+    "sanskrit": "Bakasana B",
+    "english": "Crane Pose B",
+    "meaning": "Crane",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "bakasana-a",
+    "alignment": [
+      "Jump light, bringing the hips high before the knees land.",
+      "Land the knees on the upper arms with control."
+    ],
+    "modifications": [
+      "Step in instead of jumping.",
+      "Repeat A."
+    ]
+  },
+  "bharadvajasana": {
+    "sanskrit": "Bharadvajasana",
+    "english": "Bharadvaja's Twist",
+    "meaning": "Twist dedicated to the sage Bharadvaja",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; fold the left shin back beside the hip and take the right foot into half lotus; twist right, bind the lotus foot behind the back, left hand under the right knee", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through and repeat on the other side, twisting left", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep both sit bones as grounded as possible.",
+      "Lengthen up first, then twist from the belly.",
+      "Turn the head last."
+    ],
+    "modifications": [
+      "Sit on a blanket.",
+      "Keep the lotus foot on the floor (no lotus) and hold the knee."
+    ]
+  },
+  "ardha-matsyendrasana": {
+    "sanskrit": "Ardha Matsyendrasana",
+    "english": "Half Lord of the Fishes",
+    "meaning": "Half lord of the fishes",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; fold the left heel beside the right hip, step the right foot outside the left knee; twist right, left arm over the knee to hold the foot, right hand binding behind", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through and repeat on the other side, twisting left", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the spine vertical; lift through the crown.",
+      "Press the outer arm against the knee to deepen the twist.",
+      "Keep the standing foot flat."
+    ],
+    "modifications": [
+      "Extend the bottom leg straight.",
+      "Hug the knee instead of binding."
+    ]
+  },
+  "eka-pada-sirsasana": {
+    "sanskrit": "Eka Pada Sirsasana",
+    "english": "Foot-Behind-the-Head Pose",
+    "meaning": "One foot to head",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "A: upright with hands in prayer. B: fold forward. C: lift up on the hands.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; place the right leg behind the head, hands in prayer, look up (A)", "h": 5 },
+      { "b": "ex", "m": "Fold forward, chin toward the extended shin (B)", "h": 5 },
+      { "b": "in", "m": "Come up, hands down and lift the body (C)", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Jump through; left leg behind the head (A)", "h": 5 },
+      { "b": "ex", "m": "Fold forward (B)", "h": 5 },
+      { "b": "in", "m": "Come up and lift (C)", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the thigh outward from the hip before taking the leg back.",
+      "Draw the shoulder under the knee; keep the head and chest lifted.",
+      "Never pull on the knee joint."
+    ],
+    "modifications": [
+      "Cradle the leg in the arms (baby cradle) instead.",
+      "Lie on the back to bring the foot toward the head.",
+      "Keep the opposite knee bent."
+    ]
+  },
+  "dwi-pada-sirsasana": {
+    "sanskrit": "Dwi Pada Sirsasana",
+    "english": "Both Feet Behind the Head",
+    "meaning": "Two feet to head",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; place both legs behind the head, cross the ankles, balance on the sit bones with the hands in prayer", "h": 5 },
+      { "b": "in", "m": "Place the hands down and lift the body off the floor", "h": 5 },
+      "@vinyasa-bakasana",
+      "@close"
+    ],
+    "alignment": [
+      "Take the first leg back fully before adding the second.",
+      "Lift the chest and press the head back into the feet.",
+      "Keep breathing smoothly."
+    ],
+    "modifications": [
+      "Keep one leg behind the head (Eka Pada Sirsasana).",
+      "Practice lying down (as in Yoganidrasana)."
+    ]
+  },
+  "yoganidrasana": {
+    "sanskrit": "Yoganidrasana",
+    "english": "Yogic Sleep Pose",
+    "meaning": "Yogic sleep",
+    "drishti": "Broomadhya (third eye)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down on the back" },
+      { "b": "ex", "m": "Bring both legs behind the head, cross the ankles and bind the hands behind the back", "h": 5 },
+      "@vinyasa-chakrasana",
+      "@close"
+    ],
+    "alignment": [
+      "Let gravity help. The back stays on the floor.",
+      "Draw the shoulders under the knees before crossing the ankles."
+    ],
+    "modifications": [
+      "Hold the feet without taking them behind the head (happy baby).",
+      "Take one leg at a time."
+    ]
+  },
+  "tittibhasana-a": {
+    "sanskrit": "Tittibhasana A",
+    "english": "Firefly Pose A",
+    "meaning": "Firefly",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "Tittibhasana A, B and C share one count. B is often followed by walking forward and back five steps.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump the legs around the arms, straighten the legs forward and lift the chest", "h": 5, "p": "tittibhasana-a" },
+      { "b": "ex", "m": "Lower the feet, fold forward and bind the hands behind the back, feet together", "h": 5, "p": "tittibhasana-b" },
+      { "b": "ex", "m": "Release the bind and hold the ankles from behind, legs straightening", "h": 5, "p": "tittibhasana-c" },
+      { "b": "in", "m": "Hands down, lift back into Tittibhasana" },
+      "@vinyasa-bakasana",
+      "@close"
+    ],
+    "alignment": [
+      "Place the thighs high on the upper arms.",
+      "Press the floor away and lift the chest forward.",
+      "Keep the legs straight and toes pointed."
+    ],
+    "modifications": [
+      "Keep the knees bent or the feet on the floor.",
+      "Practice B with the hands on the floor."
+    ]
+  },
+  "tittibhasana-b": {
+    "sanskrit": "Tittibhasana B",
+    "english": "Firefly Pose B",
+    "meaning": "Firefly",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "tittibhasana-a",
+    "alignment": [
+      "Fold deeply with the shoulders behind the knees.",
+      "Keep the feet together and the bind firm."
+    ],
+    "modifications": [
+      "Hold a strap between the hands.",
+      "Keep the hands on the floor."
+    ]
+  },
+  "tittibhasana-c": {
+    "sanskrit": "Tittibhasana C",
+    "english": "Firefly Pose C",
+    "meaning": "Firefly",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "tittibhasana-a",
+    "alignment": [
+      "Draw the shoulders behind the legs.",
+      "Straighten the legs gradually."
+    ],
+    "modifications": [
+      "Hold the calves.",
+      "Keep the knees bent."
+    ]
+  },
+  "pincha-mayurasana": {
+    "sanskrit": "Pincha Mayurasana",
+    "english": "Forearm Balance",
+    "meaning": "Peacock feather",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, lower the forearms, walk the feet in and lift the legs into a forearm balance", "h": 10 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the forearms parallel, elbows shoulder-width.",
+      "Push the floor away and lift the shoulders.",
+      "Draw the ribs in to avoid arching."
+    ],
+    "modifications": [
+      "Practice against a wall.",
+      "Use a strap around the upper arms or a block between the hands.",
+      "Practice dolphin pose."
+    ]
+  },
+  "karandavasana": {
+    "sanskrit": "Karandavasana",
+    "english": "Duck Pose",
+    "meaning": "Duck",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, lift into Pincha Mayurasana" },
+      { "b": "ex", "m": "Fold the legs into Padmasana and lower the knees onto the upper arms", "h": 5 },
+      { "b": "in", "m": "Lift the lotus back up to vertical, release the legs and lower down" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Round the back as the lotus lowers.",
+      "Keep the shoulders over the elbows.",
+      "Exhale to lower, inhale to lift. The bandhas do the work."
+    ],
+    "modifications": [
+      "Practice the lowering only.",
+      "Practice against a wall.",
+      "Practice with a teacher's assistance."
+    ]
+  },
+  "mayurasana": {
+    "sanskrit": "Mayurasana",
+    "english": "Peacock Pose",
+    "meaning": "Peacock",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump the feet apart, place the hands between them with the fingers pointing back; elbows into the belly, extend the legs and lift", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Elbows close together, pressing into the belly.",
+      "Lean forward to counterbalance the legs.",
+      "Body in one line, parallel to the floor."
+    ],
+    "modifications": [
+      "Keep the toes on the floor.",
+      "Bend the knees or cross the legs in lotus."
+    ]
+  },
+  "nakrasana": {
+    "dynamic": true,
+    "sanskrit": "Nakrasana",
+    "english": "Crocodile Pose",
+    "meaning": "Crocodile",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Holding Chaturanga, hop the whole body forward and back, five times" },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the body in one straight line throughout.",
+      "Elbows hug the ribs."
+    ],
+    "modifications": [
+      "Hold Chaturanga still.",
+      "Practice with the knees down."
+    ]
+  },
+  "vatayanasana": {
+    "sanskrit": "Vatayanasana",
+    "english": "Horse Face Pose",
+    "meaning": "Horse",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, take the right foot into half lotus and lower onto the right knee, left foot beside it; wrap the arms and lift the chest", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Repeat with the left foot in half lotus", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the hips level and the spine vertical.",
+      "Lower the lotus knee down gently. Never drop onto it.",
+      "Squeeze the arms together and lift the elbows."
+    ],
+    "modifications": [
+      "Kneel on a folded blanket.",
+      "Keep the foot on the inner thigh instead of half lotus."
+    ]
+  },
+  "parighasana": {
+    "sanskrit": "Parighasana",
+    "english": "Gate Pose",
+    "meaning": "Gate (iron bar)",
+    "drishti": "Urdhva (up)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; fold the right leg back beside the hip, extend the left leg out to the side; reach over and hold the left foot" },
+      { "b": "ex", "m": "Turn the chest up and fold sideways over the left leg; gaze up", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; fold the left leg back, extend the right leg to the side" },
+      { "b": "ex", "m": "Fold sideways over the right leg", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the chest toward the ceiling as you fold sideways.",
+      "Keep the extended leg straight, kneecap facing up."
+    ],
+    "modifications": [
+      "Hold the shin instead of the foot.",
+      "Kneel on the folded leg instead of sitting."
+    ]
+  },
+  "gomukhasana-a": {
+    "sanskrit": "Gomukhasana A",
+    "english": "Cow Face Pose A",
+    "meaning": "Cow face",
+    "drishti": "Nasagrai (tip of the nose); Urdhva (up) in B",
+    "sides": true,
+    "note": "Gomukhasana A and B share one count.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; cross the right knee over the left and sit between the heels; hands on the top knee, lift the chest", "h": 5, "p": "gomukhasana-a" },
+      { "b": "in", "m": "Bind the hands behind the back, right elbow up; look up", "h": 5, "p": "gomukhasana-b" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; cross the left knee over the right; hands on the knee", "h": 5, "p": "gomukhasana-a" },
+      { "b": "in", "m": "Bind with the left elbow up; look up", "h": 5, "p": "gomukhasana-b" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Stack the knees and keep both sit bones grounded.",
+      "Lift the chest and keep the spine upright."
+    ],
+    "modifications": [
+      "Sit on a block.",
+      "Extend the bottom leg straight."
+    ]
+  },
+  "gomukhasana-b": {
+    "sanskrit": "Gomukhasana B",
+    "english": "Cow Face Pose B",
+    "meaning": "Cow face",
+    "drishti": "Urdhva (up)",
+    "of": "gomukhasana-a",
+    "alignment": [
+      "Lift the top elbow toward the ceiling.",
+      "Keep the head neutral against the top arm."
+    ],
+    "modifications": [
+      "Hold a strap between the hands."
+    ]
+  },
+  "supta-urdhva-pada-vajrasana": {
+    "sanskrit": "Supta Urdhva Pada Vajrasana",
+    "english": "Reclining Thunderbolt with Raised Foot",
+    "meaning": "Reclining upward-foot thunderbolt",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down" },
+      { "b": "ex", "m": "Take the right foot into half lotus and bind it behind the back with the right hand; roll back over the shoulders" },
+      { "b": "in", "m": "Roll up onto the left knee and twist, left hand on the floor", "h": 5 },
+      { "b": "ex", "m": "Roll back and change sides" },
+      { "b": "in", "m": "Roll up and twist on the other side", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Roll with momentum and keep the bind.",
+      "Keep the lotus knee soft; never force it."
+    ],
+    "modifications": [
+      "Practice the twist seated with the lotus foot held.",
+      "Practice with a teacher's assistance."
+    ]
+  },
+  "mukta-hasta-sirsasana-a": {
+    "sanskrit": "Mukta Hasta Sirsasana A",
+    "english": "Free-Hands Headstand A",
+    "meaning": "Free-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "A, B and C share one count. Arm positions vary between teachers.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Crown of the head down; arms straight in front, palms down; lift the legs to vertical", "h": 5, "p": "mukta-hasta-sirsasana-a" },
+      { "b": "in", "m": "Lower, reposition the arms out to the sides, and lift again", "h": 5, "p": "mukta-hasta-sirsasana-b" },
+      { "b": "in", "m": "Lower, reach the arms straight back with the palms up, and lift again", "h": 5, "p": "mukta-hasta-sirsasana-c" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Balance on the crown with a long neck. Lift through the legs.",
+      "Use strong bandhas to lift and lower with control."
+    ],
+    "modifications": [
+      "Practice Sirsasana A instead.",
+      "Practice near a wall."
+    ]
+  },
+  "mukta-hasta-sirsasana-b": {
+    "sanskrit": "Mukta Hasta Sirsasana B",
+    "english": "Free-Hands Headstand B",
+    "meaning": "Free-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "mukta-hasta-sirsasana-a",
+    "alignment": [
+      "Press the palms down to steady the balance."
+    ],
+    "modifications": [
+      "Practice near a wall."
+    ]
+  },
+  "mukta-hasta-sirsasana-c": {
+    "sanskrit": "Mukta Hasta Sirsasana C",
+    "english": "Free-Hands Headstand C",
+    "meaning": "Free-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "mukta-hasta-sirsasana-a",
+    "alignment": [
+      "Find the balance point on the crown before lifting."
+    ],
+    "modifications": [
+      "Practice near a wall."
+    ]
+  },
+  "baddha-hasta-sirsasana-a": {
+    "sanskrit": "Baddha Hasta Sirsasana A",
+    "english": "Bound-Hands Headstand A",
+    "meaning": "Bound-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "A–D share one count. A is the classic headstand with interlaced fingers; arm positions for B–D vary between teachers.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Interlace the fingers, crown down, lift the legs (A)", "h": 5, "p": "baddha-hasta-sirsasana-a" },
+      { "b": "in", "m": "Lower; palms flat with the forearms parallel; lift (B)", "h": 5, "p": "baddha-hasta-sirsasana-b" },
+      { "b": "in", "m": "Lower; fold the arms holding opposite elbows in front of the head; lift (C)", "h": 5, "p": "baddha-hasta-sirsasana-c" },
+      { "b": "in", "m": "Lower; change the arm position; lift (D)", "h": 5, "p": "baddha-hasta-sirsasana-d" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Press the forearms down and lift the shoulders.",
+      "Lift and lower the legs straight, using the bandhas."
+    ],
+    "modifications": [
+      "Bend the knees to lift and lower.",
+      "Practice near a wall."
+    ]
+  },
+  "baddha-hasta-sirsasana-b": {
+    "sanskrit": "Baddha Hasta Sirsasana B",
+    "english": "Bound-Hands Headstand B",
+    "meaning": "Bound-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "baddha-hasta-sirsasana-a",
+    "alignment": ["Press the palms down evenly."],
+    "modifications": ["Practice near a wall."]
+  },
+  "baddha-hasta-sirsasana-c": {
+    "sanskrit": "Baddha Hasta Sirsasana C",
+    "english": "Bound-Hands Headstand C",
+    "meaning": "Bound-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "baddha-hasta-sirsasana-a",
+    "alignment": ["Keep the forearms pressing firmly into the floor."],
+    "modifications": ["Practice near a wall."]
+  },
+  "baddha-hasta-sirsasana-d": {
+    "sanskrit": "Baddha Hasta Sirsasana D",
+    "english": "Bound-Hands Headstand D",
+    "meaning": "Bound-hands headstand",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "baddha-hasta-sirsasana-a",
+    "alignment": ["Lift the shoulders away from the floor."],
+    "modifications": ["Practice near a wall."]
+  }
+}

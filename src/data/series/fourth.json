@@ -1,0 +1,40 @@
+{
+  "id": "fourth",
+  "order": 4,
+  "name": "Fourth Series",
+  "alt": "Advanced B",
+  "sanskrit": "Sthira Bhaga B",
+  "meaning": "Divine stability",
+  "blurb": "Continues the advanced work with deeper backbends, leg-behind-head postures and complex binds.",
+  "accent": "#6366f1",
+  "accent2": "#f472b6",
+  "countNote": "Counts use the same full-vinyasa pattern as the Primary Series. Fourth Series lists vary the most between sources, especially after Marichyasana H, and some postures don't have written cues yet. Learn this series with your teacher.",
+  "sections": [
+    { "ref": "sun" },
+    { "ref": "standing" },
+    {
+      "id": "fourth-series",
+      "title": "Fourth Series",
+      "subtitle": "Sthira Bhaga B",
+      "poses": [
+        "mula-bandhasana",
+        "nahusasana",
+        "vrschikasana",
+        "shayanasana",
+        "buddhasana",
+        "kapilasana",
+        "akarna-dhanurasana",
+        "padangustha-dhanurasana",
+        "marichyasana-e-h",
+        "taraksvasana",
+        "lalatasana",
+        "bhuja-dandasana",
+        "parsva-bhuja-dandasana",
+        "kandasana",
+        "viparita-chakrasana",
+        "tiriang-mukhottanasana"
+      ]
+    },
+    { "ref": "finishing" }
+  ]
+}

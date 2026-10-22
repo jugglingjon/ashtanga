@@ -1,0 +1,100 @@
+// Colors derived from --accent. Custom properties resolve where they're declared,
+// so these are re-declared on every element that sets its own --accent.
+@mixin accent-vars {
+  --ink-accent: color-mix(in oklab, var(--accent) 60%, #000);
+  --tint-accent: color-mix(in oklab, var(--accent) 15%, transparent);
+
+  @media (prefers-color-scheme: dark) {
+    --ink-accent: color-mix(in oklab, var(--accent) 62%, #fff);
+    --tint-accent: color-mix(in oklab, var(--accent) 22%, transparent);
+  }
+}
+
+:root,
+.series-card,
+.sheet {
+  @include accent-vars;
+}
+
+// Registered so series colors can animate when navigating.
+@property --accent {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #f59e0b;
+}
+@property --accent-2 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #8b5cf6;
+}
+
+:root {
+  color-scheme: light dark;
+
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --accent: #f59e0b;
+  --accent-2: #8b5cf6;
+  --accent-3: #38bdf8;
+
+  --bg: #f4efe9;
+  --bg-2: #ece6f4;
+  --text: #17141f;
+  --text-2: #4a4556;
+  --text-3: #777186;
+  --hairline: rgb(23 20 31 / 0.08);
+  --fill: rgb(23 20 31 / 0.045);
+  --fill-2: rgb(23 20 31 / 0.075);
+
+  --glass: rgb(255 255 255 / 0.5);
+  --glass-bar: rgb(255 255 255 / 0.62);
+  --glass-strong: rgb(255 255 255 / 0.74);
+  --glass-solid: #faf8f6;
+  --glass-edge: rgb(255 255 255 / 0.85);
+  --glass-line: rgb(255 255 255 / 0.45);
+  --rim-opacity: 0.9;
+  --shadow: 0 1px 2px rgb(23 20 31 / 0.05), 0 14px 34px -14px rgb(40 24 60 / 0.28);
+  --shadow-lg: 0 30px 70px -24px rgb(40 24 60 / 0.45);
+
+  --inhale: #0f766e;
+  --exhale: #6d28d9;
+
+  --radius-xl: 30px;
+  --radius-lg: 24px;
+  --radius: 18px;
+  --radius-sm: 12px;
+  // Kept at 12px: larger radii render incorrectly in software-composited browsers.
+  --blur: 12px;
+  --gutter: 16px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --spring: cubic-bezier(0.3, 1.25, 0.5, 1);
+
+  transition: --accent 0.8s var(--ease), --accent-2 0.8s var(--ease);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0b14;
+    --bg-2: #15122a;
+    --text: #f4f2fa;
+    --text-2: #c4c0d3;
+    --text-3: #918ca5;
+    --hairline: rgb(255 255 255 / 0.08);
+    --fill: rgb(255 255 255 / 0.05);
+    --fill-2: rgb(255 255 255 / 0.09);
+
+    --glass: rgb(30 28 46 / 0.5);
+    --glass-bar: rgb(30 28 46 / 0.66);
+    --glass-strong: rgb(36 34 54 / 0.78);
+    --glass-solid: #1b1a2a;
+    --glass-edge: rgb(255 255 255 / 0.22);
+    --glass-line: rgb(255 255 255 / 0.09);
+    --rim-opacity: 0.45;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 14px 34px -14px rgb(0 0 0 / 0.7);
+    --shadow-lg: 0 30px 70px -24px rgb(0 0 0 / 0.8);
+
+    --inhale: #5eead4;
+    --exhale: #c4b5fd;
+  }
+}

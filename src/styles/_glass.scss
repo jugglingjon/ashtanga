@@ -1,0 +1,74 @@
+// Frosted, saturated surface. Solid fallback when blur isn't available
+// or the user asks for less transparency.
+@mixin glass($tint: var(--glass), $blur: var(--blur)) {
+  background: $tint;
+  -webkit-backdrop-filter: blur($blur) saturate(1.8);
+  backdrop-filter: blur($blur) saturate(1.8);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 0 0 1px var(--glass-line),
+    var(--shadow);
+
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    background: var(--glass-solid);
+  }
+
+  @media (prefers-reduced-transparency: reduce) {
+    background: var(--glass-solid);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+// Translucent surface without its own blur. Used for large scrolling containers:
+// a blurred container stops the sticky glass above it from blurring its content.
+@mixin glass-flat($tint: var(--glass)) {
+  background: $tint;
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 0 0 1px var(--glass-line),
+    var(--shadow);
+
+  @media (prefers-reduced-transparency: reduce) {
+    background: var(--glass-solid);
+  }
+}
+
+// Light catching the rim: a gradient border drawn with a masked pseudo-element.
+@mixin glass-rim {
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 1px;
+    pointer-events: none;
+    background: linear-gradient(
+      150deg,
+      rgb(255 255 255 / 0.95),
+      rgb(255 255 255 / 0) 32%,
+      rgb(255 255 255 / 0) 68%,
+      rgb(255 255 255 / 0.55)
+    );
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: var(--rim-opacity);
+  }
+}
+
+@mixin pressable {
+  cursor: pointer;
+  transition: transform 0.25s var(--spring), background-color 0.2s;
+  -webkit-tap-highlight-color: transparent;
+
+  &:active {
+    transform: scale(0.97);
+  }
+}

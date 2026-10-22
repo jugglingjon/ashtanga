@@ -1,0 +1,60 @@
+{
+  "id": "primary",
+  "order": 1,
+  "name": "Primary Series",
+  "sanskrit": "Yoga Chikitsa",
+  "meaning": "Yoga therapy",
+  "blurb": "Cleanses and realigns the body, building strength, flexibility and a steady breath.",
+  "accent": "#f59e0b",
+  "accent2": "#f43f5e",
+  "countNote": "Totals and state numbers follow the traditional full-vinyasa count from Samasthitih (Yoga Mala, Sharath Jois), the method Kino MacGregor also teaches. In daily practice you flow from Down Dog straight into the next posture.",
+  "sections": [
+    { "ref": "sun" },
+    { "ref": "standing" },
+    {
+      "id": "primary-standing",
+      "title": "Primary Standing",
+      "subtitle": "Balancing and strengthening",
+      "poses": [
+        "utthita-hasta-padangusthasana",
+        "ardha-baddha-padmottanasana",
+        "utkatasana",
+        "virabhadrasana-a",
+        "virabhadrasana-b"
+      ]
+    },
+    {
+      "id": "primary-seated",
+      "title": "Primary Seated",
+      "subtitle": "Forward bends, twists and hip openers",
+      "poses": [
+        "dandasana",
+        "paschimottanasana",
+        "purvottanasana",
+        "ardha-baddha-padma-paschimottanasana",
+        "tiriang-mukha-eka-pada-paschimottanasana",
+        "janu-sirsasana-a",
+        "janu-sirsasana-b",
+        "janu-sirsasana-c",
+        "marichyasana-a",
+        "marichyasana-b",
+        "marichyasana-c",
+        "marichyasana-d",
+        "navasana",
+        "bhujapidasana",
+        "kurmasana",
+        "supta-kurmasana",
+        "garbha-pindasana",
+        "kukkutasana",
+        "baddha-konasana",
+        "upavistha-konasana",
+        "supta-konasana",
+        "supta-padangusthasana",
+        "ubhaya-padangusthasana",
+        "urdhva-mukha-paschimottanasana",
+        "setu-bandhasana"
+      ]
+    },
+    { "ref": "finishing" }
+  ]
+}

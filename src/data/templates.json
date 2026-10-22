@@ -1,0 +1,80 @@
+{
+  "sun": {
+    "label": "Sun Salutation entry",
+    "summary": "Arms up, fold, look up, jump back, Up Dog, Down Dog",
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, raise the arms overhead" },
+      { "b": "ex", "m": "Fold forward, hands beside the feet" },
+      { "b": "in", "m": "Lift the head and lengthen the spine" },
+      { "b": "ex", "m": "Jump or step back to Chaturanga Dandasana" },
+      { "b": "in", "m": "Urdhva Mukha Svanasana (Up Dog)" },
+      { "b": "ex", "m": "Adho Mukha Svanasana (Down Dog)" }
+    ]
+  },
+  "sun4": {
+    "label": "Sun Salutation entry",
+    "summary": "Arms up, fold, look up, jump back to Chaturanga",
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, raise the arms overhead" },
+      { "b": "ex", "m": "Fold forward, hands beside the feet" },
+      { "b": "in", "m": "Lift the head and lengthen the spine" },
+      { "b": "ex", "m": "Jump or step back to Chaturanga Dandasana" }
+    ]
+  },
+  "vinyasa": {
+    "label": "Vinyasa",
+    "summary": "Lift up, jump back, Up Dog, Down Dog",
+    "steps": [
+      { "b": "in", "m": "Cross the legs, press the hands down and lift up (Utpluthih)" },
+      { "b": "ex", "m": "Swing back to Chaturanga Dandasana" },
+      { "b": "in", "m": "Up Dog" },
+      { "b": "ex", "m": "Down Dog" }
+    ]
+  },
+  "vinyasa-bakasana": {
+    "label": "Vinyasa",
+    "summary": "Bakasana, jump back, Up Dog, Down Dog",
+    "steps": [
+      { "b": "in", "m": "Bend the knees onto the upper arms in Bakasana" },
+      { "b": "ex", "m": "Jump back to Chaturanga Dandasana" },
+      { "b": "in", "m": "Up Dog" },
+      { "b": "ex", "m": "Down Dog" }
+    ]
+  },
+  "vinyasa-chakrasana": {
+    "label": "Vinyasa",
+    "summary": "Chakrasana, Chaturanga, Up Dog, Down Dog",
+    "steps": [
+      { "b": "in", "m": "Chakrasana: hands beside the ears, roll backward over the shoulders" },
+      { "b": "ex", "m": "Land in Chaturanga Dandasana" },
+      { "b": "in", "m": "Up Dog" },
+      { "b": "ex", "m": "Down Dog" }
+    ]
+  },
+  "back": {
+    "label": "Vinyasa",
+    "summary": "Jump back, Up Dog, Down Dog",
+    "steps": [
+      { "b": "ex", "m": "Hands down, jump or step back to Chaturanga Dandasana" },
+      { "b": "in", "m": "Up Dog" },
+      { "b": "ex", "m": "Down Dog" }
+    ]
+  },
+  "prone": {
+    "label": "Vinyasa",
+    "summary": "Up Dog, Down Dog",
+    "steps": [
+      { "b": "in", "m": "Hands under the shoulders, push up into Up Dog" },
+      { "b": "ex", "m": "Down Dog" }
+    ]
+  },
+  "close": {
+    "label": "Return to standing",
+    "summary": "Jump forward, look up, fold",
+    "after": "Inhale, rise up; exhale to Samasthitih",
+    "steps": [
+      { "b": "in", "m": "Jump forward between the hands, lift the head" },
+      { "b": "ex", "m": "Fold forward" }
+    ]
+  }
+}

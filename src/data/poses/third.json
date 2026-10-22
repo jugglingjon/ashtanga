@@ -1,0 +1,622 @@
+{
+  "vasisthasana": {
+    "sanskrit": "Vasisthasana",
+    "english": "Side Plank with Leg Lift",
+    "meaning": "Posture dedicated to the sage Vasistha",
+    "drishti": "Hastagrai (raised hand)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, roll onto the outer edge of the right foot into side plank on the right hand; lift the left leg and hold the big toe", "h": 5 },
+      { "b": "ex", "m": "Return to Down Dog" },
+      { "b": "in", "m": "Repeat on the left hand", "h": 5 },
+      { "b": "ex", "m": "Return to Down Dog" },
+      "@close"
+    ],
+    "alignment": [
+      "Stack the shoulder over the wrist and press the floor away.",
+      "Keep the hips lifted in one line with the shoulders and feet.",
+      "Straighten the lifted leg before opening it wider."
+    ],
+    "modifications": [
+      "Keep the top leg resting on the bottom leg (simple side plank).",
+      "Lower the bottom knee to the floor.",
+      "Hold the lifted leg with a strap."
+    ]
+  },
+  "visvamitrasana": {
+    "sanskrit": "Visvamitrasana",
+    "english": "Visvamitra's Pose",
+    "meaning": "Posture dedicated to the sage Visvamitra",
+    "drishti": "Hastagrai (raised hand)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, step the right foot outside the right hand, hook the right leg over the right shoulder and straighten it; turn the back foot out, lift the left arm and hold the right foot", "h": 5 },
+      { "b": "ex", "m": "Return to Down Dog" },
+      { "b": "in", "m": "Repeat on the left side", "h": 5 },
+      { "b": "ex", "m": "Return to Down Dog" },
+      "@close"
+    ],
+    "alignment": [
+      "Press the shoulder into the inner thigh to straighten the lifted leg.",
+      "Ground the outer edge of the back foot.",
+      "Rotate the chest up toward the top hand."
+    ],
+    "modifications": [
+      "Keep the front knee bent and the top hand on the hip.",
+      "Use a block under the bottom hand."
+    ]
+  },
+  "kasyapasana": {
+    "sanskrit": "Kasyapasana",
+    "english": "Kasyapa's Pose",
+    "meaning": "Posture dedicated to the sage Kasyapa",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "The first of five postures with one foot behind the head; this one is practiced lying on the back.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; place the right leg behind the head" },
+      { "b": "ex", "m": "Lie back with the left leg extended, hands in prayer at the chest", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; place the left leg behind the head" },
+      { "b": "ex", "m": "Lie back, hands in prayer", "h": 5 },
+      { "b": "in", "m": "Come up" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the thigh outward from the hip before taking the leg back.",
+      "Draw the shoulder under the knee and lift the head back against the leg.",
+      "Keep the extended leg active and grounded."
+    ],
+    "modifications": [
+      "Cradle the leg in the arms instead.",
+      "Practice Eka Pada Sirsasana from the Intermediate Series."
+    ]
+  },
+  "chakorasana": {
+    "sanskrit": "Chakorasana",
+    "english": "Chakora Bird Pose",
+    "meaning": "Chakora bird",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right leg behind the head, press the hands down and lift up with the left leg pointing straight up", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Jump through; left leg behind the head, lift up with the right leg vertical", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the extended leg straight and reaching up.",
+      "Press firmly through the hands; lift the hips high.",
+      "Keep the leg secure behind the head before lifting."
+    ],
+    "modifications": [
+      "Lift with the extended leg on the floor.",
+      "Practice Eka Pada Sirsasana C."
+    ]
+  },
+  "bhairavasana": {
+    "sanskrit": "Bhairavasana",
+    "english": "Bhairava's Pose",
+    "meaning": "Posture dedicated to Bhairava, a fierce form of Shiva",
+    "drishti": "Urdhva (up)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right leg behind the head" },
+      { "b": "ex", "m": "Place the right hand down and lift into a side plank, top arm reaching up", "h": 5 },
+      { "b": "in", "m": "Lower and sit" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; take the left leg behind the head" },
+      { "b": "ex", "m": "Side plank on the left hand", "h": 5 },
+      { "b": "in", "m": "Lower and sit" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Stack the shoulder over the wrist.",
+      "Lift the hips in line with the extended leg.",
+      "Keep the head pressing back into the leg."
+    ],
+    "modifications": [
+      "Practice Vasisthasana in its simplest form.",
+      "Keep the bottom knee on the floor."
+    ]
+  },
+  "skandasana": {
+    "sanskrit": "Skandasana",
+    "english": "Skanda's Pose",
+    "meaning": "Posture dedicated to Skanda, god of war",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump forward; standing on the left leg, take the right leg behind the head and fold forward, hands to the floor", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Jump forward; standing on the right leg, take the left leg behind the head and fold forward", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Fold from the hips with the standing leg straight.",
+      "Use the hands on the floor for balance before taking the leg back.",
+      "Keep the neck long against the leg."
+    ],
+    "modifications": [
+      "Keep the standing knee bent.",
+      "Practice seated Eka Pada Sirsasana instead."
+    ]
+  },
+  "durvasasana": {
+    "sanskrit": "Durvasasana",
+    "english": "Durvasa's Pose",
+    "meaning": "Posture dedicated to the sage Durvasa",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right leg behind the head" },
+      { "b": "in", "m": "Press up to stand on the left leg, hands in prayer", "h": 5 },
+      { "b": "ex", "m": "Lower down to sit" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; take the left leg behind the head" },
+      { "b": "in", "m": "Stand on the right leg, hands in prayer", "h": 5 },
+      { "b": "ex", "m": "Lower down to sit" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Find the balance with the standing leg strong and straight.",
+      "Press the head back into the leg to lift the chest.",
+      "Steady gaze and slow breath help the balance."
+    ],
+    "modifications": [
+      "Stand near a wall.",
+      "Practice Skandasana with the hands on the floor."
+    ]
+  },
+  "urdhva-kukkutasana": {
+    "sanskrit": "Urdhva Kukkutasana A–C",
+    "english": "Upward Rooster Pose",
+    "meaning": "Upward rooster",
+    "drishti": "Nasagrai (tip of the nose)",
+    "note": "Practiced as three variations (A, B and C) that differ in how the lotus rests on the arms. Learn the details from your teacher.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana and fold the legs into Padmasana" },
+      { "b": "ex", "m": "Lower the lotus onto the backs of the upper arms" },
+      { "b": "in", "m": "Lift the head and balance on the hands", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Round the back to lower the lotus with control.",
+      "Squeeze the knees toward the armpits.",
+      "Shift forward to balance as the head lifts."
+    ],
+    "modifications": [
+      "Practice Kukkutasana from the Primary Series.",
+      "Practice Bakasana."
+    ]
+  },
+  "galavasana": {
+    "sanskrit": "Galavasana",
+    "english": "Galava's Pose (Flying Pigeon)",
+    "meaning": "Posture dedicated to the sage Galava",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana; take the right foot into half lotus" },
+      { "b": "ex", "m": "Lower the shin across the backs of the upper arms and extend the other leg behind; lift the head", "h": 5 },
+      { "b": "in", "m": "Return to Sirsasana and change legs" },
+      { "b": "ex", "m": "Lower into the balance on the other side", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Flex the foot of the lotus leg to protect the knee.",
+      "Keep the elbows over the wrists.",
+      "Reach back through the extended leg."
+    ],
+    "modifications": [
+      "Keep the back foot on the floor.",
+      "Practice a figure-four squat with the hands on the floor."
+    ]
+  },
+  "eka-pada-bakasana": {
+    "sanskrit": "Eka Pada Bakasana A & B",
+    "english": "One-Legged Crane Pose",
+    "meaning": "One-foot crane",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "One knee rests on the upper arm while the other leg extends. A and B differ in the leg position.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana" },
+      { "b": "ex", "m": "Lower one knee onto the upper arm, extend the other leg and lift the head", "h": 5 },
+      { "b": "in", "m": "Return to Sirsasana and change legs" },
+      { "b": "ex", "m": "Lower into the balance on the other side", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Place the knee high on the arm.",
+      "Keep the extended leg straight and strong.",
+      "Lean forward enough to lift the head."
+    ],
+    "modifications": [
+      "Practice Bakasana.",
+      "Keep the extended leg's toes on the floor."
+    ]
+  },
+  "koundinyasana": {
+    "sanskrit": "Koundinyasana A & B",
+    "english": "Koundinya's Pose",
+    "meaning": "Posture dedicated to the sage Koundinya",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "A: both legs to one side with the top leg reaching sideways (twisted). B: one leg forward over the arm, the other extended back.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana" },
+      { "b": "ex", "m": "Twist and lower the legs into the arm balance; lift the head", "h": 5 },
+      { "b": "in", "m": "Return to Sirsasana" },
+      { "b": "ex", "m": "Lower into the balance on the other side", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Bend the elbows like Chaturanga to make a shelf for the legs.",
+      "Keep the legs straight and active.",
+      "Look forward to counterbalance."
+    ],
+    "modifications": [
+      "Keep one foot on the floor.",
+      "Practice side crow (Parsva Bakasana)."
+    ]
+  },
+  "astavakrasana": {
+    "sanskrit": "Astavakrasana A & B",
+    "english": "Eight-Angle Pose",
+    "meaning": "Posture dedicated to the sage Astavakra",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "A and B are the two sides.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; hook the right leg over the right upper arm, cross the ankles and lift" },
+      { "b": "ex", "m": "Bend the elbows, lean forward and extend the legs out to the side", "h": 5 },
+      { "b": "in", "m": "Come up and lower down" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; hook the left leg over the left arm, cross the ankles and lift" },
+      { "b": "ex", "m": "Lean forward and extend the legs to the other side", "h": 5 },
+      { "b": "in", "m": "Come up and lower down" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Squeeze the thighs around the arm.",
+      "Keep the elbows hugging in as you lean.",
+      "Extend actively through both feet."
+    ],
+    "modifications": [
+      "Stay lifted with bent knees.",
+      "Keep the feet on the floor and hold the leg on the arm."
+    ]
+  },
+  "purna-matsyendrasana": {
+    "sanskrit": "Purna Matsyendrasana",
+    "english": "Full Lord of the Fishes",
+    "meaning": "Full lord of the fishes",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the left foot into half lotus, step the right foot over the left knee; twist right and bind", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through and repeat on the other side, twisting left", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Set up the half lotus carefully, keeping the knee pain-free.",
+      "Lengthen up, then twist from the belly.",
+      "Keep both sit bones as grounded as possible."
+    ],
+    "modifications": [
+      "Practice Ardha Matsyendrasana.",
+      "Keep the bottom leg folded without lotus."
+    ]
+  },
+  "viranchyasana": {
+    "sanskrit": "Viranchyasana A & B",
+    "english": "Viranchi's Pose",
+    "meaning": "Posture dedicated to Viranchi (Brahma)",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "Seated postures that combine a foot-behind-the-head position with half lotus (A) or a bent knee (B). Learn the details from your teacher.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; set up the right side: one foot behind the head, the other leg folded; hands in prayer", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; set up the left side", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Rotate the thigh outward from the hip before taking the foot back.",
+      "Keep the chest lifted and the head pressing back.",
+      "Never pull on the knee."
+    ],
+    "modifications": [
+      "Practice Eka Pada Sirsasana A.",
+      "Cradle the leg in the arms."
+    ]
+  },
+  "viparita-dandasana": {
+    "sanskrit": "Viparita Dandasana",
+    "english": "Inverted Staff Pose",
+    "meaning": "Inverted staff",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana with the fingers interlaced" },
+      { "b": "ex", "m": "Arch over and lower the feet to the floor; straighten the legs", "h": 5 },
+      { "b": "in", "m": "Kick back up to Sirsasana" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Press the forearms down and lift the shoulders.",
+      "Walk the feet out to straighten the legs, keeping the feet parallel.",
+      "Spread the backbend through the upper back."
+    ],
+    "modifications": [
+      "Keep the knees bent.",
+      "Practice Urdhva Dhanurasana or a supported backbend over a bench."
+    ]
+  },
+  "eka-pada-viparita-dandasana": {
+    "sanskrit": "Eka Pada Viparita Dandasana",
+    "english": "One-Legged Inverted Staff Pose",
+    "meaning": "One-foot inverted staff",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, come into Sirsasana" },
+      { "b": "ex", "m": "Arch over into Viparita Dandasana and lift the right leg to vertical", "h": 5 },
+      { "b": "in", "m": "Lower the leg; lift the left leg", "h": 5 },
+      { "b": "in", "m": "Kick back up to Sirsasana" },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the hips lifted as the leg rises.",
+      "Lift the leg straight up from the hip without twisting."
+    ],
+    "modifications": [
+      "Keep both feet down.",
+      "Lift the leg with the knee bent."
+    ]
+  },
+  "viparita-salabhasana": {
+    "sanskrit": "Viparita Salabhasana",
+    "english": "Inverted Locust Pose",
+    "meaning": "Inverted locust",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the chin and chest with the hands under the body; swing the legs up and over, bringing the feet toward the head", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the chin and chest grounded and the neck long.",
+      "Lift with strong arms pressing into the floor.",
+      "Come up gradually over many practices."
+    ],
+    "modifications": [
+      "Practice Shalabhasana with the hands under the hips.",
+      "Lift only partway."
+    ]
+  },
+  "ganda-bherundasana": {
+    "sanskrit": "Ganda Bherundasana",
+    "english": "Formidable Face Pose",
+    "meaning": "Formidable bird",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the chin and chest; swing the legs over and bring the feet down beside the head", "h": 5 },
+      { "b": "in", "m": "Extend the arms out to the sides or hold the feet", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the chin and chest grounded.",
+      "Lower the feet slowly with control.",
+      "Keep breathing into the front of the body."
+    ],
+    "modifications": [
+      "Practice Viparita Salabhasana.",
+      "Practice with a teacher's assistance."
+    ]
+  },
+  "hanumanasana": {
+    "sanskrit": "Hanumanasana",
+    "english": "Front Splits (Monkey God Pose)",
+    "meaning": "Posture dedicated to Hanuman",
+    "drishti": "Urdhva (up); Padhayoragrai (toes) when folding",
+    "sides": true,
+    "note": "Often practiced upright with the arms overhead, then folding forward over the front leg.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, step the right foot forward and slide into the splits; arms up, palms together", "h": 5 },
+      { "b": "ex", "m": "Fold forward over the front leg", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Step the left foot forward and slide into the splits; arms up", "h": 5 },
+      { "b": "ex", "m": "Fold forward over the front leg", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Square the hips forward; draw the back hip forward.",
+      "Keep the front kneecap facing up and the back knee facing down.",
+      "Lower gradually; keep the hands down for support until the hips reach the floor."
+    ],
+    "modifications": [
+      "Place blocks under the hands and a bolster under the front hip.",
+      "Practice a half splits (Ardha Hanumanasana)."
+    ]
+  },
+  "supta-trivikramasana": {
+    "sanskrit": "Supta Trivikramasana",
+    "english": "Reclining Standing-Splits Pose",
+    "meaning": "Reclining posture of Trivikrama (Vishnu's three strides)",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down" },
+      { "b": "ex", "m": "Lift the right leg and draw it down beside the head, holding the heel with both hands", "h": 5 },
+      { "b": "in", "m": "Release the leg" },
+      { "b": "ex", "m": "Lift the left leg and draw it down beside the head", "h": 5 },
+      { "b": "in", "m": "Release the leg" },
+      "@vinyasa-chakrasana",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the bottom leg straight and pressing into the floor.",
+      "Keep the hips level as the leg comes down.",
+      "Draw the leg in line with the shoulder, not across the body."
+    ],
+    "modifications": [
+      "Bend the bottom knee.",
+      "Use a strap around the lifted foot."
+    ]
+  },
+  "dighasana": {
+    "sanskrit": "Dighasana A & B",
+    "english": "Standing Balance (Dighasana)",
+    "meaning": "Dighasana",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "note": "A: the torso and lifted leg come parallel to the floor, arms reaching forward. B: rise onto the ball of the standing foot.",
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, raise the arms overhead" },
+      { "b": "ex", "m": "Hinge forward on the left leg, lifting the right leg until the body is parallel to the floor (A)", "h": 5 },
+      { "b": "in", "m": "Rise onto the ball of the standing foot (B)", "h": 5 },
+      { "b": "ex", "m": "Lower the heel and return to standing" },
+      { "b": "in", "m": "Raise the arms overhead" },
+      { "b": "ex", "m": "Hinge forward on the right leg (A)", "h": 5 },
+      { "b": "in", "m": "Rise onto the ball of the foot (B)", "h": 5 },
+      { "b": "ex", "m": "Return to Samasthitih" }
+    ],
+    "alignment": [
+      "Keep the hips level; don't let the lifted hip open.",
+      "Reach equally through the hands and the back heel.",
+      "Engage the standing leg strongly."
+    ],
+    "modifications": [
+      "Rest the hands on blocks or a wall.",
+      "Keep the standing knee softly bent."
+    ]
+  },
+  "trivikramasana": {
+    "sanskrit": "Trivikramasana",
+    "english": "Standing Splits (Trivikrama's Pose)",
+    "meaning": "Posture of Trivikrama (Vishnu's three strides)",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, lift the right leg, holding the heel, and draw it up beside the head", "h": 5 },
+      { "b": "ex", "m": "Lower the leg" },
+      { "b": "in", "m": "Lift the left leg and draw it up beside the head", "h": 5 },
+      { "b": "ex", "m": "Lower the leg to Samasthitih" }
+    ],
+    "alignment": [
+      "Keep the standing leg straight and the hips square.",
+      "Lift the leg in line with the shoulder.",
+      "Stand tall; don't lean away from the leg."
+    ],
+    "modifications": [
+      "Use a strap around the foot.",
+      "Practice Utthita Hasta Padangusthasana."
+    ]
+  },
+  "natarajasana": {
+    "sanskrit": "Natarajasana",
+    "english": "King Dancer Pose",
+    "meaning": "Posture of Nataraja, lord of the dance",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      { "b": "in", "m": "From Samasthitih, bend the right knee and catch the foot overhead with both hands, elbows pointing up", "h": 5 },
+      { "b": "ex", "m": "Release the foot" },
+      { "b": "in", "m": "Catch the left foot overhead with both hands", "h": 5 },
+      { "b": "ex", "m": "Release to Samasthitih" }
+    ],
+    "alignment": [
+      "Kick the foot up and back into the hands.",
+      "Keep the hips square and the standing leg strong.",
+      "Lift the chest and keep the breath smooth."
+    ],
+    "modifications": [
+      "Hold the foot with one hand and reach the other arm forward.",
+      "Use a strap around the foot."
+    ]
+  },
+  "raja-kapotasana": {
+    "sanskrit": "Raja Kapotasana",
+    "english": "King Pigeon Pose",
+    "meaning": "King pigeon",
+    "drishti": "Nasagrai (tip of the nose)",
+    "steps": [
+      "@sun4",
+      { "b": "in", "m": "Lower onto the belly and press up with bent knees; reach back, hold the feet and draw them toward the head", "h": 5 },
+      "@prone",
+      "@close"
+    ],
+    "alignment": [
+      "Lengthen the front body before deepening the backbend.",
+      "Keep the knees hip-width.",
+      "Spread the bend evenly along the spine."
+    ],
+    "modifications": [
+      "Practice Kapotasana or Bhekasana.",
+      "Use a strap around the feet."
+    ]
+  },
+  "eka-pada-raja-kapotasana": {
+    "sanskrit": "Eka Pada Raja Kapotasana",
+    "english": "One-Legged King Pigeon Pose",
+    "meaning": "One-foot king pigeon",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "From Down Dog, bring the right shin forward and extend the left leg back; bend the back knee and catch the foot overhead with both hands", "h": 5 },
+      "@back",
+      { "b": "in", "m": "Bring the left shin forward and catch the right foot overhead", "h": 5 },
+      "@back",
+      "@close"
+    ],
+    "alignment": [
+      "Square the hips forward; keep the front foot flexed.",
+      "Lift the chest before reaching back.",
+      "Elbows point up as you hold the foot."
+    ],
+    "modifications": [
+      "Use a strap around the back foot.",
+      "Keep the hands on the floor in a simple pigeon."
+    ]
+  }
+}

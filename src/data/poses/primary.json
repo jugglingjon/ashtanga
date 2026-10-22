@@ -1,0 +1,778 @@
+{
+  "utthita-hasta-padangusthasana": {
+    "sanskrit": "Utthita Hasta Padangusthasana",
+    "english": "Extended Hand-to-Big-Toe Pose",
+    "meaning": "Extended hand to big toe",
+    "drishti": "Padhayoragrai (toes); Parsva (side) in the open variation",
+    "sides": true,
+    "vinyasas": 14,
+    "steps": [
+      { "b": "in", "m": "Shift onto the left leg, hook the right big toe and lift the leg; left hand on the hip" },
+      { "b": "ex", "m": "Fold, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      { "b": "ex", "m": "Open the leg out to the right; gaze over the left shoulder", "h": 5 },
+      { "b": "in", "m": "Bring the leg back to center" },
+      { "b": "ex", "m": "Fold, chin toward the shin" },
+      { "b": "in", "m": "Lift the head, hands to the hips, hold the leg up unsupported", "h": 5 },
+      { "b": "ex", "m": "Lower the leg to Samasthitih", "u": true },
+      { "b": "in", "m": "Shift onto the right leg, hook the left big toe and lift the leg" },
+      { "b": "ex", "m": "Fold, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      { "b": "ex", "m": "Open the leg out to the left; gaze over the right shoulder", "h": 5 },
+      { "b": "in", "m": "Bring the leg back to center" },
+      { "b": "ex", "m": "Fold, chin toward the shin" },
+      { "b": "in", "m": "Lift the head, hands to the hips, hold the leg up unsupported", "h": 5 },
+      { "b": "ex", "m": "Lower the leg to Samasthitih", "u": true }
+    ],
+    "alignment": [
+      "Keep the standing leg straight and strong and the hips level.",
+      "Keep the lifted leg straight before you fold; height comes with time.",
+      "Lengthen the spine before folding; the chin travels toward the shin, not the knee.",
+      "In the side variation, keep both hips facing forward."
+    ],
+    "modifications": [
+      "Bend the lifted knee, or loop a strap around the foot.",
+      "Keep the torso upright instead of folding.",
+      "Stand beside a wall for balance."
+    ]
+  },
+  "ardha-baddha-padmottanasana": {
+    "sanskrit": "Ardha Baddha Padmottanasana",
+    "english": "Half Bound Lotus Standing Forward Bend",
+    "meaning": "Half bound lotus intense stretch",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "vinyasas": 9,
+    "steps": [
+      { "b": "in", "m": "Draw the right foot into half lotus; reach the right arm behind and catch the right big toe" },
+      { "b": "ex", "m": "Fold, left hand to the floor beside the foot", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      { "b": "in", "m": "Come up to standing, still bound" },
+      { "b": "ex", "m": "Release the leg to Samasthitih" },
+      { "b": "in", "m": "Draw the left foot into half lotus and bind with the left hand" },
+      { "b": "ex", "m": "Fold, right hand to the floor", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      { "b": "in", "m": "Come up to standing; exhale release the leg to Samasthitih" }
+    ],
+    "alignment": [
+      "Press the lotus heel into the lower belly with the knee pointing down.",
+      "Bind first, then fold. Soften the standing knee if needed.",
+      "Keep the shoulders square and draw the chin toward the shin."
+    ],
+    "modifications": [
+      "Hold the lotus foot with the opposite hand in front instead of binding.",
+      "Place the foot on the inner thigh (tree position) and fold with the hands on blocks.",
+      "Never force the knee. Lotus should always be pain-free."
+    ]
+  },
+  "utkatasana": {
+    "sanskrit": "Utkatasana",
+    "english": "Chair Pose (Fierce Pose)",
+    "meaning": "Fierce posture",
+    "drishti": "Angusta ma dyai (thumbs)",
+    "vinyasas": 13,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump forward, bend the knees deeply and raise the arms overhead; gaze at the thumbs", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "note": "In daily practice, flow from Down Dog straight into Virabhadrasana.",
+    "alignment": [
+      "Keep the knees and feet together and the weight in the heels.",
+      "Sit back as if into a chair; draw the belly in and lengthen the tailbone.",
+      "Arms straight beside the ears, palms together."
+    ],
+    "modifications": [
+      "Place the feet hip-width apart.",
+      "Keep the arms parallel or the hands on the hips if the shoulders are tight."
+    ]
+  },
+  "virabhadrasana-a": {
+    "sanskrit": "Virabhadrasana A",
+    "english": "Warrior I",
+    "meaning": "Posture of the warrior Virabhadra",
+    "drishti": "Angusta ma dyai (thumbs)",
+    "sides": true,
+    "vinyasas": 16,
+    "note": "Virabhadrasana A and B share one count. In daily practice, flow from Down Dog into the seated postures.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Turn the left heel in, step the right foot forward, bend the right knee, arms up", "h": 5, "p": "virabhadrasana-a" },
+      { "b": "in", "m": "Straighten, turn to the left and bend the left knee", "h": 5, "p": "virabhadrasana-a" },
+      { "b": "in", "m": "Open the hips and arms to Virabhadrasana B on the left; gaze over the left hand", "h": 5, "p": "virabhadrasana-b" },
+      { "b": "in", "m": "Turn to the right, Virabhadrasana B on the right", "h": 5, "p": "virabhadrasana-b" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Front knee over the ankle; back heel down with the foot turned in about 45°.",
+      "Square the hips forward and lift the ribs away from the pelvis.",
+      "Reach up through the arms with the palms together."
+    ],
+    "modifications": [
+      "Shorten the stance.",
+      "Hands on the hips or arms shoulder-width apart."
+    ]
+  },
+  "virabhadrasana-b": {
+    "sanskrit": "Virabhadrasana B",
+    "english": "Warrior II",
+    "meaning": "Posture of the warrior Virabhadra",
+    "drishti": "Hastagrai (front hand)",
+    "sides": true,
+    "of": "virabhadrasana-a",
+    "alignment": [
+      "Front heel lines up with the arch of the back foot; hips open to the side.",
+      "Front knee tracks toward the little toe.",
+      "Arms level with the floor, shoulders relaxed down."
+    ],
+    "modifications": [
+      "Shorten the stance.",
+      "Reduce the bend in the front knee."
+    ]
+  },
+  "dandasana": {
+    "sanskrit": "Dandasana",
+    "english": "Staff Pose",
+    "meaning": "Staff",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "paschimottanasana",
+    "alignment": [
+      "Legs together and active, feet flexed.",
+      "Palms beside the hips press down as the crown lifts.",
+      "Draw the belly in and keep the chest open."
+    ],
+    "modifications": [
+      "Sit on a folded blanket.",
+      "Bend the knees slightly to keep the spine upright."
+    ]
+  },
+  "paschimottanasana": {
+    "sanskrit": "Paschimottanasana",
+    "english": "Seated Forward Bend",
+    "meaning": "Intense stretch of the west (back of the body)",
+    "drishti": "Padhayoragrai (toes)",
+    "vinyasas": 16,
+    "note": "Grips: A holds the big toes, B the outer edges of the feet, C a wrist beyond the soles. Some teachers add D.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump or step through to sit in Dandasana", "p": "dandasana" },
+      { "b": "in", "m": "Hold the big toes (A), straighten the arms, lift the chest and look up" },
+      { "b": "ex", "m": "Fold forward over the legs, elbows wide", "h": 5 },
+      { "b": "in", "m": "Lift the head and chest" },
+      { "b": "ex", "m": "Change the grip (B, then C) and fold again, 5 breaths each, lifting the head between", "u": true },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Fold from the hips with a long spine. Lead with the belly, not the head.",
+      "Keep the legs together and active, feet flexed, kneecaps lifted.",
+      "Elbows wide and lifted; shoulders away from the ears.",
+      "Breathe into the back body and let the neck release in the fold."
+    ],
+    "modifications": [
+      "Sit on a folded blanket to tilt the pelvis forward.",
+      "Bend the knees, or hold the shins or a strap.",
+      "Stay more upright with a flat back rather than rounding."
+    ]
+  },
+  "purvottanasana": {
+    "sanskrit": "Purvottanasana",
+    "english": "Upward Plank (Intense East Stretch)",
+    "meaning": "Intense stretch of the east (front of the body)",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 15,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to sit; place the hands behind the hips, fingers toward the feet" },
+      { "b": "in", "m": "Press up and lift the hips, toes pointing to the floor; release the head back", "h": 5 },
+      { "b": "ex", "m": "Lower to sit" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Hands shoulder-width apart, fingers pointing toward the feet.",
+      "Lift the hips level with the shoulders and press the soles toward the floor.",
+      "Release the head back only if the neck is comfortable."
+    ],
+    "modifications": [
+      "Reverse tabletop: knees bent, feet flat on the floor.",
+      "Keep the chin toward the chest."
+    ]
+  },
+  "ardha-baddha-padma-paschimottanasana": {
+    "sanskrit": "Ardha Baddha Padma Paschimottanasana",
+    "english": "Half Bound Lotus Seated Forward Bend",
+    "meaning": "Half bound lotus intense west stretch",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the right foot into half lotus, reach the right hand behind and catch the big toe; the left hand holds the left foot; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; left foot into half lotus, bind with the left hand, hold the right foot; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Press the lotus heel into the lower belly; draw the knee toward the straight leg.",
+      "Bind before you fold and keep the shoulders square.",
+      "Keep the extended leg active, foot flexed."
+    ],
+    "modifications": [
+      "Place the foot against the inner thigh (no lotus) and hold the extended foot with both hands.",
+      "Skip the bind and hold the extended foot with both hands.",
+      "Protect the knee. Never force lotus."
+    ]
+  },
+  "tiriang-mukha-eka-pada-paschimottanasana": {
+    "sanskrit": "Tiriang Mukha Eka Pada Paschimottanasana",
+    "english": "Three-Limbed Forward Bend",
+    "meaning": "Reverse-facing one-leg intense west stretch",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; fold the right leg back beside the right hip; hold the left foot with both hands; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; fold the left leg back; hold the right foot; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep both sit bones grounded by leaning slightly toward the bent-leg side.",
+      "Knees touch; the folded foot points straight back.",
+      "Lengthen the spine before you fold."
+    ],
+    "modifications": [
+      "Place a block or blanket under the straight-leg hip.",
+      "Hold the shin or use a strap."
+    ]
+  },
+  "janu-sirsasana-a": {
+    "sanskrit": "Janu Sirsasana A",
+    "english": "Head-to-Knee Pose A",
+    "meaning": "Head to knee",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bend the right knee, heel to the inner groin, knee out at about 90°; hold the left foot and look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; bend the left knee and hold the right foot; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Open the bent knee to about 90° with the heel at the perineum.",
+      "Turn the chest to face the straight leg before folding.",
+      "Keep the straight leg active and the foot flexed."
+    ],
+    "modifications": [
+      "Place a blanket under the bent knee.",
+      "Loop a strap around the extended foot."
+    ]
+  },
+  "janu-sirsasana-b": {
+    "sanskrit": "Janu Sirsasana B",
+    "english": "Head-to-Knee Pose B",
+    "meaning": "Head to knee",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bend the right knee to about 85° and sit on the heel, sole facing up; hold the left foot and look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; sit on the left heel and hold the right foot; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Sit with the perineum on the heel.",
+      "Keep the knee angle slightly less than 90°.",
+      "Lift up through the spine before folding."
+    ],
+    "modifications": [
+      "Practice the A variation instead.",
+      "Place a blanket under the bent knee."
+    ]
+  },
+  "janu-sirsasana-c": {
+    "sanskrit": "Janu Sirsasana C",
+    "english": "Head-to-Knee Pose C",
+    "meaning": "Head to knee",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; holding the right foot, rotate the shin and place the toes on the floor with the heel against the lower belly; lower the knee forward to about 45°; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; set up the left leg the same way; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Move slowly and rotate from the hip, never the knee.",
+      "Heel against the navel, toes tucked under, pointing forward.",
+      "Lower the knee gradually over many practices."
+    ],
+    "modifications": [
+      "Repeat the A variation if there is any knee discomfort.",
+      "Support the bent knee with a blanket."
+    ]
+  },
+  "marichyasana-a": {
+    "sanskrit": "Marichyasana A",
+    "english": "Marichi's Pose A",
+    "meaning": "Posture dedicated to the sage Marichi",
+    "drishti": "Padhayoragrai (toes)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bend the right knee with the foot near the sit bone; wrap the right arm around the shin and bind behind the back; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; bend the left knee, wrap and bind; look up" },
+      { "b": "ex", "m": "Fold over the straight leg", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Place the bent-knee foot in line with the hip, a hand's width from the straight thigh.",
+      "Reach forward past the shin before wrapping the arm.",
+      "Keep the straight leg neutral with the foot flexed."
+    ],
+    "modifications": [
+      "Use a strap between the hands.",
+      "Hold the shin without binding."
+    ]
+  },
+  "marichyasana-b": {
+    "sanskrit": "Marichyasana B",
+    "english": "Marichi's Pose B",
+    "meaning": "Posture dedicated to the sage Marichi",
+    "drishti": "Nasagrai (tip of the nose)",
+    "sides": true,
+    "vinyasas": 22,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the left foot into half lotus, bend the right knee, wrap the right arm and bind; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; right foot into half lotus, bend the left knee, wrap and bind; look up" },
+      { "b": "ex", "m": "Fold forward", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Let the lotus knee ground before you fold.",
+      "Sink the weight forward onto the lotus knee.",
+      "Keep the bent knee upright, not drifting out."
+    ],
+    "modifications": [
+      "Keep the lotus leg straight on the floor.",
+      "Hold the hands without binding."
+    ]
+  },
+  "marichyasana-c": {
+    "sanskrit": "Marichyasana C",
+    "english": "Marichi's Pose C",
+    "meaning": "Posture dedicated to the sage Marichi",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "vinyasas": 18,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bend the right knee, twist to the right, wrap the left arm around the knee and bind behind the back", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; bend the left knee, twist to the left and bind", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Lengthen up on each inhale and twist a little deeper on each exhale.",
+      "Keep the straight leg active with the foot flexed.",
+      "Keep the bent knee upright and the sit bones grounded."
+    ],
+    "modifications": [
+      "Hug the knee with the elbow instead of binding.",
+      "Sit on a blanket."
+    ]
+  },
+  "marichyasana-d": {
+    "sanskrit": "Marichyasana D",
+    "english": "Marichi's Pose D",
+    "meaning": "Posture dedicated to the sage Marichi",
+    "drishti": "Parsva (side)",
+    "sides": true,
+    "vinyasas": 18,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; take the left foot into half lotus, bend the right knee, twist to the right and bind", "h": 5 },
+      "@vinyasa",
+      { "b": "in", "m": "Jump through; right foot into half lotus, bend the left knee, twist left and bind", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Set up the half lotus first, then bend the other knee.",
+      "Twist from the belly, keeping the spine tall.",
+      "Let the lotus knee rest on the floor."
+    ],
+    "modifications": [
+      "Practice the twist with the lotus leg extended straight (like Marichyasana C).",
+      "Never force lotus."
+    ]
+  },
+  "navasana": {
+    "sanskrit": "Navasana",
+    "english": "Boat Pose",
+    "meaning": "Boat",
+    "drishti": "Padhayoragrai (toes)",
+    "vinyasas": 13,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; lift the straight legs and balance on the sit bones, arms reaching forward", "h": 5 },
+      { "b": "ex", "m": "Cross the legs, press the hands down and lift the body; lower and return to Navasana. Five rounds in total.", "u": true },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Lift through the chest; don't round the lower back.",
+      "Keep the legs straight with the toes at eye level.",
+      "Arms parallel to the floor, palms facing in."
+    ],
+    "modifications": [
+      "Bend the knees (half boat).",
+      "Hold the backs of the thighs.",
+      "Lift up with the feet staying on the floor."
+    ]
+  },
+  "bhujapidasana": {
+    "sanskrit": "Bhujapidasana",
+    "english": "Shoulder-Pressing Pose",
+    "meaning": "Arm-pressing posture",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 15,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump the legs around the arms and cross the ankles, right over left; balance on the hands" },
+      { "b": "ex", "m": "Lower the chin (or crown) toward the floor between the hands", "h": 5 },
+      { "b": "in", "m": "Lift the head, release the feet and straighten the legs forward (Tittibhasana)" },
+      "@vinyasa-bakasana",
+      "@close"
+    ],
+    "alignment": [
+      "Place the thighs high on the upper arms.",
+      "Keep the elbows over the wrists.",
+      "Squeeze the legs onto the arms and keep the gaze forward."
+    ],
+    "modifications": [
+      "Practice from a squat.",
+      "Keep the feet on the floor.",
+      "Rest the forehead on a block."
+    ]
+  },
+  "kurmasana": {
+    "sanskrit": "Kurmasana",
+    "english": "Tortoise Pose",
+    "meaning": "Tortoise",
+    "drishti": "Broomadhya (third eye)",
+    "vinyasas": 16,
+    "note": "Kurmasana and Supta Kurmasana share one count.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump the legs around the arms; lower to sit and slide the arms under the knees, chest down, legs straight", "h": 5, "p": "kurmasana" },
+      { "b": "ex", "m": "Bend the knees, clasp the hands behind the back and cross the ankles", "h": 5, "p": "supta-kurmasana" },
+      { "b": "in", "m": "Release the hands; lift up into Dvi Pada Sirsasana (ankles crossed behind the head) on the hands" },
+      { "b": "ex", "m": "Straighten the legs into Tittibhasana" },
+      "@vinyasa-bakasana",
+      "@close"
+    ],
+    "alignment": [
+      "Lift the heels and press the legs straight.",
+      "Reach the arms back under the knees, palms down.",
+      "Lengthen through the chest rather than rounding."
+    ],
+    "modifications": [
+      "Bend the knees.",
+      "Place a block under the chest.",
+      "Skip Supta Kurmasana until Kurmasana is comfortable."
+    ]
+  },
+  "supta-kurmasana": {
+    "sanskrit": "Supta Kurmasana",
+    "english": "Sleeping Tortoise",
+    "meaning": "Reclining tortoise",
+    "drishti": "Broomadhya (third eye)",
+    "of": "kurmasana",
+    "alignment": [
+      "Draw the shoulders under the knees before reaching back.",
+      "Cross the ankles behind the head only with a teacher's guidance.",
+      "Breathe slowly and let the neck release."
+    ],
+    "modifications": [
+      "Hold the hands under the legs without binding.",
+      "Keep the feet on the floor."
+    ]
+  },
+  "garbha-pindasana": {
+    "sanskrit": "Garbha Pindasana",
+    "english": "Embryo in the Womb",
+    "meaning": "Womb embryo",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 15,
+    "note": "Garbha Pindasana and Kukkutasana share one count.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through to Padmasana; thread the arms through the legs up to the elbows" },
+      { "b": "ex", "m": "Hold the face, balance; then roll back and forth nine times, circling clockwise", "h": 5, "p": "garbha-pindasana" },
+      { "b": "in", "m": "Roll up and balance on the hands in Kukkutasana", "h": 5, "p": "kukkutasana" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "A tight lotus makes threading the arms easier. A little water on the arms helps.",
+      "Round the spine to roll smoothly.",
+      "Keep the head tucked as you roll back."
+    ],
+    "modifications": [
+      "Rock in a cross-legged position.",
+      "Hold the shins without threading the arms.",
+      "Skip lotus if the knees hurt."
+    ]
+  },
+  "kukkutasana": {
+    "sanskrit": "Kukkutasana",
+    "english": "Rooster Pose",
+    "meaning": "Rooster",
+    "drishti": "Nasagrai (tip of the nose)",
+    "of": "garbha-pindasana",
+    "alignment": [
+      "Arms straight, fingers spread wide.",
+      "Lift the lotus away from the floor with strong bandhas."
+    ],
+    "modifications": [
+      "Place the hands on blocks.",
+      "Keep the toes on the floor."
+    ]
+  },
+  "baddha-konasana": {
+    "sanskrit": "Baddha Konasana",
+    "english": "Bound Angle Pose",
+    "meaning": "Bound angle",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 15,
+    "note": "A: fold with a long spine. B: round forward, head toward the feet.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; bring the soles together, open the feet like a book, lift the chest and look up" },
+      { "b": "ex", "m": "Fold forward, chin toward the floor (A)", "h": 5 },
+      { "b": "in", "m": "Lift the head" },
+      { "b": "ex", "m": "Round forward, head toward the feet (B), 5 breaths; inhale up", "u": true },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Draw the heels close to the groin.",
+      "Lead with the chest in A; round the back in B.",
+      "Let the knees release down; press gently with the elbows."
+    ],
+    "modifications": [
+      "Sit on a blanket.",
+      "Move the heels further from the body."
+    ]
+  },
+  "upavistha-konasana": {
+    "sanskrit": "Upavistha Konasana",
+    "english": "Seated Wide-Angle Pose",
+    "meaning": "Seated angle",
+    "drishti": "Broomadhya (third eye); Urdhva (up) in B",
+    "vinyasas": 15,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; open the legs wide, hold the outer edges of the feet and look up" },
+      { "b": "ex", "m": "Fold forward, chest and chin toward the floor (A)", "h": 5 },
+      { "b": "in", "m": "Come up and lift the legs, balancing on the sit bones while holding the feet (B)", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the knees and toes pointing up.",
+      "Fold from the hips with a long spine.",
+      "In B, lift the chest and look up."
+    ],
+    "modifications": [
+      "Hold the shins or knees.",
+      "Practice B with bent knees."
+    ]
+  },
+  "supta-konasana": {
+    "sanskrit": "Supta Konasana",
+    "english": "Reclining Angle Pose",
+    "meaning": "Reclining angle",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 16,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down on the back" },
+      { "b": "ex", "m": "Lift the legs over the head, wide apart, toes to the floor; hold the big toes", "h": 5 },
+      { "b": "in", "m": "Roll up to balance on the sit bones; exhale and land the calves softly, chest toward the floor" },
+      { "b": "in", "m": "Lift the head" },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the weight on the shoulders and the neck free.",
+      "Point the toes as you roll up.",
+      "Land on the calves, not the heels."
+    ],
+    "modifications": [
+      "Practice Halasana instead.",
+      "Bend the knees to roll up."
+    ]
+  },
+  "supta-padangusthasana": {
+    "sanskrit": "Supta Padangusthasana",
+    "english": "Reclining Big Toe Pose",
+    "meaning": "Reclining big toe",
+    "drishti": "Padhayoragrai (toes); Parsva (side) in the open variation",
+    "sides": true,
+    "vinyasas": 28,
+    "note": "The side variation is sometimes called Supta Parsvasahita.",
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down" },
+      { "b": "in", "m": "Lift the right leg and hook the big toe; left hand on the left thigh" },
+      { "b": "ex", "m": "Lift the chest, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Head down" },
+      { "b": "ex", "m": "Open the leg to the right; gaze left", "h": 5 },
+      { "b": "in", "m": "Bring the leg back to center" },
+      { "b": "ex", "m": "Chin toward the shin" },
+      { "b": "in", "m": "Head down; exhale lower the leg" },
+      { "b": "in", "m": "Lift the left leg and hook the big toe" },
+      { "b": "ex", "m": "Lift the chest, chin toward the shin", "h": 5 },
+      { "b": "in", "m": "Head down" },
+      { "b": "ex", "m": "Open the leg to the left; gaze right", "h": 5 },
+      { "b": "in", "m": "Bring the leg back to center" },
+      { "b": "ex", "m": "Chin toward the shin" },
+      { "b": "in", "m": "Head down" },
+      { "b": "ex", "m": "Lower the leg" },
+      "@vinyasa-chakrasana",
+      "@close"
+    ],
+    "alignment": [
+      "Keep the bottom leg active and pressing into the floor.",
+      "In the side variation, keep both shoulders on the floor.",
+      "Lift the leg straight before drawing it closer."
+    ],
+    "modifications": [
+      "Loop a strap around the foot.",
+      "Bend the lower knee with the foot on the floor."
+    ]
+  },
+  "ubhaya-padangusthasana": {
+    "sanskrit": "Ubhaya Padangusthasana",
+    "english": "Both Big Toes Pose",
+    "meaning": "Both big toes",
+    "drishti": "Urdhva (up)",
+    "vinyasas": 15,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down" },
+      { "b": "ex", "m": "Lift the legs over the head, toes to the floor; hold both big toes" },
+      { "b": "in", "m": "Roll up to balance on the sit bones with straight legs", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Roll up with momentum, keeping the legs straight.",
+      "Lift the chest and draw the shoulders back.",
+      "Balance just behind the sit bones."
+    ],
+    "modifications": [
+      "Bend the knees to roll up, then straighten.",
+      "Hold the shins."
+    ]
+  },
+  "urdhva-mukha-paschimottanasana": {
+    "sanskrit": "Urdhva Mukha Paschimottanasana",
+    "english": "Upward-Facing Forward Bend",
+    "meaning": "Upward-facing intense west stretch",
+    "drishti": "Padhayoragrai (toes)",
+    "vinyasas": 16,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down" },
+      { "b": "ex", "m": "Lift the legs over the head; hold the outer edges of the feet" },
+      { "b": "in", "m": "Roll up to balance, legs straight" },
+      { "b": "ex", "m": "Draw the legs toward the face, chin toward the shins", "h": 5 },
+      "@vinyasa",
+      "@close"
+    ],
+    "alignment": [
+      "Lengthen the spine and draw the belly in.",
+      "Balance just behind the sit bones."
+    ],
+    "modifications": [
+      "Bend the knees.",
+      "Hold the shins."
+    ]
+  },
+  "setu-bandhasana": {
+    "sanskrit": "Setu Bandhasana",
+    "english": "Bridge Pose (Ashtanga version)",
+    "meaning": "Bridge-building posture",
+    "drishti": "Nasagrai (tip of the nose)",
+    "vinyasas": 15,
+    "steps": [
+      "@sun",
+      { "b": "in", "m": "Jump through; exhale and lie down with the heels together and toes turned out" },
+      { "b": "ex", "m": "Arch the back and place the crown of the head on the floor; cross the arms over the chest" },
+      { "b": "in", "m": "Press through the feet and lift the hips, rolling toward the forehead", "h": 5 },
+      "@vinyasa-chakrasana",
+      "@close"
+    ],
+    "alignment": [
+      "Heels together, toes turned out wide.",
+      "Press into the feet, not the head.",
+      "Move slowly. Neck strength builds over time."
+    ],
+    "modifications": [
+      "Keep the hands on the floor beside the body.",
+      "Practice a supported bridge with the shoulders down.",
+      "Skip with a neck injury."
+    ]
+  }
+}

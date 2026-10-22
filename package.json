@@ -1,0 +1,20 @@
+{
+  "name": "ashtanga-reference",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Phone-first reference for the first four series of Ashtanga Yoga",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-data.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "sass": "1.105.1",
+    "vite": "8.3.3",
+    "vite-plugin-pwa": "1.3.0"
+  }
+}

@@ -1,0 +1,449 @@
+@use 'glass' as *;
+
+// Bottom sheet on phones, docked side panel on wide screens.
+.sheet {
+  position: fixed;
+  inset: auto 0 0;
+  width: 100%;
+  max-width: 680px;
+  height: min(88dvh, 800px);
+  max-height: calc(100dvh - env(safe-area-inset-top) - 12px);
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  background: transparent;
+  color: var(--text);
+
+  &::backdrop {
+    background: rgb(12 8 24 / 0.3);
+    animation: fade-in 0.3s var(--ease);
+    transition: opacity 0.24s;
+  }
+
+  &.is-closing::backdrop {
+    opacity: 0;
+  }
+}
+
+.sheet-inner {
+  @include glass(var(--glass-strong));
+  @include glass-rim;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: env(safe-area-inset-bottom);
+  border-radius: 32px 32px 0 0;
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    var(--shadow-lg);
+  animation: sheet-in 0.44s var(--ease);
+  transition: transform 0.3s var(--ease);
+
+  .sheet.is-closing & {
+    transform: translateY(105%) !important;
+  }
+}
+
+.sheet-grab {
+  flex: none;
+  display: grid;
+  place-items: center;
+  height: 22px;
+  touch-action: none;
+  cursor: grab;
+
+  &::before {
+    content: '';
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    background: color-mix(in oklab, var(--text) 22%, transparent);
+  }
+}
+
+.sheet-head {
+  flex: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 2px 18px 14px 22px;
+  touch-action: none;
+
+  h2 {
+    outline: none;
+    margin: 4px 0 2px;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    overflow-wrap: anywhere;
+  }
+}
+
+.sheet-titles {
+  flex: 1;
+  min-width: 0;
+
+  .eyebrow {
+    color: var(--ink-accent);
+  }
+}
+
+.sheet-sub {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-2);
+}
+
+.sheet-close {
+  width: 38px;
+  height: 38px;
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+// Segmented control with a sliding glass thumb.
+.segmented {
+  flex: none;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 18px 12px;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--fill-2);
+
+  button {
+    position: relative;
+    z-index: 1;
+    padding: 9px 4px;
+    border: 0;
+    border-radius: 999px;
+    background: none;
+    font-size: 14px;
+    font-weight: 650;
+    color: var(--text-2);
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &[aria-selected='true'] {
+      color: var(--text);
+    }
+  }
+}
+
+.segmented-thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / 3);
+  border-radius: 999px;
+  background: var(--glass-solid);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    0 3px 10px rgb(0 0 0 / 0.12);
+  transform: translateX(calc(var(--i, 0) * 100%));
+  transition: transform 0.4s var(--spring);
+}
+
+.sheet-body {
+  flex: 1;
+  min-height: 0;
+  padding: 4px 18px 18px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+
+  &:focus-visible {
+    outline-offset: -4px;
+  }
+}
+
+.photo {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+  max-height: 44dvh;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  background: linear-gradient(
+    160deg,
+    color-mix(in oklab, var(--accent) 24%, transparent),
+    color-mix(in oklab, var(--accent-2) 20%, transparent)
+  );
+  box-shadow: inset 0 0 0 1px var(--glass-line);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .figure {
+    width: 44%;
+    margin-bottom: 18%;
+    color: color-mix(in oklab, var(--ink-accent) 75%, transparent);
+  }
+
+  figcaption {
+    position: absolute;
+    inset: auto 0 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 13px;
+    text-align: center;
+    color: var(--text-2);
+
+    b {
+      font-size: 15px;
+      color: var(--text);
+    }
+  }
+}
+
+.drishti {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  font-size: 15px;
+  line-height: 1.4;
+  background: var(--tint-accent);
+
+  .icon {
+    color: var(--ink-accent);
+  }
+
+  b {
+    display: block;
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-accent);
+  }
+}
+
+.cue-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr);
+    gap: 12px;
+    padding: 13px 14px;
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 1.45;
+    background: var(--fill);
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    color: var(--ink-accent);
+  }
+}
+
+.pending {
+  margin: 0;
+  padding: 16px;
+  border-radius: 18px;
+  font-size: 14.5px;
+  color: var(--text-2);
+  background: var(--fill);
+}
+
+.sheet-foot {
+  flex: none;
+  display: grid;
+  gap: 10px;
+  padding: 12px 18px;
+  border-top: 1px solid var(--hairline);
+}
+
+.video-btn {
+  @include glass(var(--glass-strong));
+  @include pressable;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 50px;
+  padding: 0 16px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink-accent);
+  background: color-mix(in oklab, var(--accent) 14%, var(--glass-strong));
+}
+
+.pager {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.pager-btn {
+  @include pressable;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  min-height: 52px;
+  padding: 8px 12px 8px 8px;
+  border: 0;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 650;
+  text-align: left;
+  background: var(--fill);
+
+  > span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  small {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-3);
+  }
+
+  &.is-next {
+    justify-content: flex-end;
+    padding: 8px 8px 8px 12px;
+    text-align: right;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: default;
+    transform: none;
+  }
+}
+
+// About sheet text.
+.prose {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-2);
+
+  h3 {
+    margin: 18px 0 6px;
+    font-size: 16px;
+    color: var(--text);
+
+    &:first-child {
+      margin-top: 4px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  b,
+  em {
+    color: var(--text);
+  }
+}
+
+.glossary {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 8px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    background: var(--fill);
+  }
+
+  dt {
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes panel-in {
+  from {
+    transform: translateX(105%);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sheet {
+    inset: 16px 16px 16px auto;
+    z-index: 30;
+    width: 420px;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    margin: 0;
+  }
+
+  .sheet-inner {
+    border-radius: 30px;
+    animation-name: panel-in;
+
+    .sheet.is-closing & {
+      transform: translateX(110%) !important;
+    }
+  }
+
+  .sheet-grab {
+    display: none;
+  }
+
+  .sheet-head {
+    padding-top: 18px;
+  }
+
+  html.sheet-open {
+    overflow: auto;
+  }
+
+  html.sheet-open #app {
+    padding-right: 452px;
+  }
+}

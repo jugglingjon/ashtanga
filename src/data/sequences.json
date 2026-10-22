@@ -1,0 +1,46 @@
+{
+  "sun": {
+    "title": "Surya Namaskara",
+    "subtitle": "Sun Salutations",
+    "poses": ["surya-namaskara-a", "surya-namaskara-b"]
+  },
+  "standing": {
+    "title": "Fundamental Standing",
+    "subtitle": "Practiced before every series",
+    "poses": [
+      "padangusthasana",
+      "padahastasana",
+      "utthita-trikonasana",
+      "parivrtta-trikonasana",
+      "utthita-parsvakonasana",
+      "parivrtta-parsvakonasana",
+      "prasarita-padottanasana-a",
+      "prasarita-padottanasana-b",
+      "prasarita-padottanasana-c",
+      "prasarita-padottanasana-d",
+      "parsvottanasana"
+    ]
+  },
+  "finishing": {
+    "title": "Finishing",
+    "subtitle": "Closing sequence",
+    "poses": [
+      "urdhva-dhanurasana",
+      "paschimottanasana",
+      "salamba-sarvangasana",
+      "halasana",
+      "karnapidasana",
+      "urdhva-padmasana",
+      "pindasana",
+      "matsyasana",
+      "uttana-padasana",
+      "sirsasana-a",
+      "sirsasana-b",
+      "baddha-padmasana",
+      "yoga-mudra",
+      "padmasana",
+      "utpluthih",
+      "savasana"
+    ]
+  }
+}

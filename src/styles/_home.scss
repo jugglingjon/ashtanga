@@ -1,0 +1,165 @@
+@use 'glass' as *;
+
+.home-view {
+  @media (min-width: 760px) {
+    max-width: 960px;
+  }
+}
+
+.home-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: calc(32px + env(safe-area-inset-top)) 4px 24px;
+}
+
+.home-title {
+  margin: 6px 0 10px;
+  font-size: clamp(34px, 9.5vw, 48px);
+  font-weight: 750;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+
+.lede {
+  margin: 0;
+  max-width: 34ch;
+  font-size: 16px;
+  color: var(--text-2);
+}
+
+.series-cards {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: 760px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+}
+
+.series-card {
+  @include glass;
+  @include glass-rim;
+  @include pressable;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+  padding: 20px 16px 20px 18px;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  text-decoration: none;
+
+  // Colored light pooling inside the glass.
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -70px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, color-mix(in oklab, var(--accent) 50%, transparent), transparent);
+    transition: transform 0.6s var(--ease);
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-2px);
+    }
+    &:hover::after {
+      transform: scale(1.15);
+    }
+  }
+}
+
+.card-num {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 17px;
+  font-family: var(--font-display);
+  font-size: 23px;
+  font-weight: 750;
+  color: #fff;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+  background: linear-gradient(140deg, var(--accent), var(--accent-2));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.55),
+    inset 0 -6px 12px rgb(0 0 0 / 0.12),
+    0 10px 22px -8px color-mix(in oklab, var(--accent) 75%, transparent);
+}
+
+.card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card-kicker {
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  color: var(--ink-accent);
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.card-alt {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  vertical-align: 3px;
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--text-2);
+  background: var(--fill-2);
+}
+
+.card-blurb {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  margin-top: 4px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-3);
+}
+
+.card-chevron {
+  width: 20px;
+  height: 20px;
+  color: var(--text-3);
+}
+
+.home-foot {
+  margin: 28px 4px 0;
+  font-size: 13px;
+  text-align: center;
+  color: var(--text-3);
+}
