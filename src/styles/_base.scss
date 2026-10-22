@@ -220,6 +220,17 @@ html[data-nav] #app {
   view-transition-name: app;
 }
 
+// By default the group also glides from the old scroll position to the new one,
+// which turns the horizontal slide into a diagonal. Pin it and offset the old
+// snapshot by how far #app moved instead (set in main.js).
+::view-transition-group(app) {
+  animation: none;
+}
+
+::view-transition-old(app) {
+  translate: 0 var(--vt-old-y, 0);
+}
+
 ::view-transition-old(app),
 ::view-transition-new(app) {
   animation-duration: 0.38s;

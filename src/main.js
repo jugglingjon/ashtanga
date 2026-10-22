@@ -32,8 +32,16 @@ function setAccent(series) {
 async function swap(update, direction) {
   if (!direction || !document.startViewTransition || reducedMotion.matches) return update();
   root.dataset.nav = direction;
-  const transition = document.startViewTransition(update);
-  transition.finished.finally(() => delete root.dataset.nav);
+  const transition = document.startViewTransition(() => {
+    const top = app.getBoundingClientRect().top;
+    update();
+    // The new screen starts at the top; keep the old snapshot where it was scrolled to.
+    root.style.setProperty('--vt-old-y', `${top - app.getBoundingClientRect().top}px`);
+  });
+  transition.finished.finally(() => {
+    delete root.dataset.nav;
+    root.style.removeProperty('--vt-old-y');
+  });
   await transition.updateCallbackDone;
 }
 

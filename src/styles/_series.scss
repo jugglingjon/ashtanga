@@ -164,24 +164,46 @@
   position: sticky;
   top: calc(var(--sticky-top) + var(--header-h) + 8px);
   z-index: 10;
-  margin: 0 0 8px;
+  margin: 0;
 }
 
 .section-toggle {
-  @include glass(var(--glass-bar));
+  // Tinted with the series color so the header reads as a label, not another posture.
+  @include glass(color-mix(in oklab, var(--accent) 14%, var(--glass-bar)));
   display: flex;
   align-items: center;
   gap: 10px;
   width: 100%;
-  min-height: 48px;
-  padding: 6px 14px 6px 18px;
+  min-height: 52px;
+  padding: 7px 14px 7px 18px;
   border: 0;
-  border-radius: 999px;
+  border-radius: var(--radius-lg);
   text-align: left;
   cursor: pointer;
 
   .is-searching & {
     cursor: default;
+  }
+}
+
+// While the postures are showing, the header and the list join into one card.
+.section:not(.is-collapsed),
+.is-searching .section {
+  .section-toggle {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow:
+      inset 0 1px 0 var(--glass-edge),
+      inset 0 -1px 0 var(--hairline),
+      inset 0 0 0 1px var(--glass-line);
+  }
+
+  .pose-list {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow:
+      inset 0 0 0 1px var(--glass-line),
+      var(--shadow);
   }
 }
 
