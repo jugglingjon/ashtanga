@@ -218,6 +218,9 @@
   font-variant-numeric: tabular-nums;
   color: var(--ink-accent);
   background: var(--tint-accent);
+  // Its own layer, so Safari redraws the whole pill when search changes its width.
+  // Inside the sticky, blurred header it otherwise leaves part of the old frame behind.
+  will-change: transform;
 }
 
 .section-chevron {
