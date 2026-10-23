@@ -154,5 +154,13 @@ app.addEventListener('click', (e) => {
   if ([...homeSheets.keys()].some((id) => e.target.closest(`a[href="${href(id)}"]`))) sheetPushed = true;
 });
 
+// Safari on iPhone and iPad ignores user-scalable=no, so block its pinch gestures directly.
+// Touch devices only: on a Mac the same events come from the trackpad.
+if (navigator.maxTouchPoints > 0) {
+  for (const type of ['gesturestart', 'gesturechange']) {
+    document.addEventListener(type, (e) => e.preventDefault());
+  }
+}
+
 window.addEventListener('hashchange', render);
 render();
