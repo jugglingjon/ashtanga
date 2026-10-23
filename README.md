@@ -99,4 +99,11 @@ Everything should be reviewed by a qualified teacher before you rely on it.
 
 ## Deploying
 
-`.github/workflows/deploy.yml` publishes `dist/` to GitHub Pages on every push to `main`. Turn it on under **Settings → Pages → Build and deployment → Source: GitHub Actions**. The build uses relative paths, so it works from `/<repo>/` or any other sub-path.
+`.github/workflows/deploy.yml` publishes `dist/` to GitHub Pages on every push to any branch, so the site always shows the most recently pushed branch. Each run is named after its branch in the Actions tab. To deploy a branch again without pushing, run the workflow from the Actions tab and pick the branch.
+
+Setup:
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. **Settings → Environments → github-pages → Deployment branches and tags: No restriction**. By default only `main` may deploy, and runs from other branches fail at the deploy step.
+
+The build uses relative paths, so it works from `/<repo>/` or any other sub-path.

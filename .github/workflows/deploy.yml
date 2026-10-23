@@ -1,8 +1,10 @@
 name: Deploy to GitHub Pages
+run-name: Deploy ${{ github.ref_name }} to GitHub Pages
 
+# Every branch publishes to the same site, so the most recent push is what's live.
 on:
   push:
-    branches: [main]
+    branches: ['**']
   workflow_dispatch:
 
 permissions:
