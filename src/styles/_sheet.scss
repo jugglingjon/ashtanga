@@ -24,6 +24,11 @@
   &.is-closing::backdrop {
     opacity: 0;
   }
+
+  // Short content: fit it rather than filling most of the screen.
+  &[data-kind='install'] {
+    height: auto;
+  }
 }
 
 .sheet-inner {

@@ -1,4 +1,4 @@
-// Hash routes: #/ · #/about · #/<series> · #/<series>/<pose>/<tab>
+// Hash routes: #/ · #/about · #/install · #/<series> · #/<series>/<pose>/<tab>
 export function parseRoute(hash = location.hash) {
   const [series = null, pose = null, tab = null] = hash
     .replace(/^#\/?/, '')

@@ -3,11 +3,16 @@ import { getSeries, poses } from './lib/data.js';
 import { parseRoute, href, navigate } from './router.js';
 import { renderHome } from './views/home.js';
 import { renderSeries } from './views/series.js';
-import { openPoseSheet, openAboutSheet, closeSheet, isSheetOpen, TABS } from './views/sheet.js';
+import { openPoseSheet, openAboutSheet, openInstallSheet, closeSheet, isSheetOpen, TABS } from './views/sheet.js';
 
 const app = document.getElementById('app');
 const root = document.documentElement;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+// Sheets opened over the home screen: #/about, #/install.
+const homeSheets = new Map([
+  ['about', openAboutSheet],
+  ['install', openInstallSheet]
+]);
 
 let screen = null; // { kind: 'home' } | { kind: 'series', series, controller }
 let current = null; // the row shown in the sheet
@@ -117,14 +122,14 @@ async function render() {
   const id = ++renderId;
   const route = parseRoute();
 
-  if (!route.series || route.series === 'about') {
-    const about = route.series === 'about';
-    if (!about && isSheetOpen()) closeSheet();
+  if (!route.series || homeSheets.has(route.series)) {
+    const openSheet = homeSheets.get(route.series);
+    if (!openSheet && isSheetOpen()) closeSheet();
     enteredFromHome = false;
     await showHome();
     if (id !== renderId) return;
     document.title = 'Ashtanga · The Four Series';
-    if (about) openAboutSheet({ onClose: closeFromSheet });
+    if (openSheet) openSheet({ onClose: closeFromSheet });
     return;
   }
 
@@ -144,9 +149,9 @@ async function render() {
   }
 }
 
-// Remember an in-app tap on "About" so closing it goes back rather than adding history.
+// Remember an in-app tap on a home sheet link so closing it goes back rather than adding history.
 app.addEventListener('click', (e) => {
-  if (e.target.closest(`a[href="${href('about')}"]`)) sheetPushed = true;
+  if ([...homeSheets.keys()].some((id) => e.target.closest(`a[href="${href(id)}"]`))) sheetPushed = true;
 });
 
 window.addEventListener('hashchange', render);

@@ -29,6 +29,85 @@
   color: var(--text-2);
 }
 
+// "Add to Home Screen" banner.
+.install {
+  @include glass;
+  @include glass-rim;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 10px 6px 10px 12px;
+  border-radius: var(--radius-lg);
+
+  @media (min-width: 760px) {
+    margin-bottom: 18px;
+  }
+}
+
+.install-icon {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  box-shadow: 0 6px 14px -6px rgb(40 24 60 / 0.5);
+}
+
+.install-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  line-height: 1.3;
+
+  b {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 13px;
+    color: var(--text-2);
+  }
+}
+
+.install-btn {
+  @include pressable;
+  flex: none;
+  display: grid;
+  place-items: center;
+  min-width: 64px;
+  height: 36px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--glass-solid);
+  background: var(--ink-accent);
+}
+
+.install-dismiss {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  color: var(--text-3);
+  cursor: pointer;
+
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 .series-cards {
   display: grid;
   gap: 14px;

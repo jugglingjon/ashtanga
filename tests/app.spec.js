@@ -1,4 +1,4 @@
-import { test as base, expect } from '@playwright/test';
+import { test as base, expect, devices } from '@playwright/test';
 
 // Every test also fails on uncaught errors or console errors.
 const test = base.extend({
@@ -151,6 +151,51 @@ test('about sheet opens from home', async ({ page }) => {
   await expect(page.locator('#sheet h2')).toHaveText('How to use this guide');
   await page.getByRole('button', { name: 'Close' }).click();
   await expect(page).toHaveURL(/\/(#\/)?$/);
+});
+
+test('install banner opens the browser install dialog', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('.series-card')).toHaveCount(4);
+  await expect(page.locator('.install')).toHaveCount(0);
+
+  // Stand in for the event Chrome fires once the app is installable.
+  await page.evaluate(() => {
+    const e = new Event('beforeinstallprompt', { cancelable: true });
+    e.prompt = async () => {
+      window.prompted = true;
+    };
+    window.dispatchEvent(e);
+  });
+  await page.getByRole('button', { name: 'Add to Home Screen' }).click();
+  expect(await page.evaluate(() => window.prompted)).toBe(true);
+  await expect(page.locator('.install')).toHaveCount(0);
+});
+
+test.describe('on iPhone', () => {
+  test.use({ userAgent: devices['iPhone 15'].userAgent });
+
+  test('install banner shows the Add to Home Screen steps', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('link', { name: 'Add to Home Screen' }).click();
+    const sheet = page.locator('#sheet');
+    await expect(page).toHaveURL(/#\/install$/);
+    await expect(sheet.locator('h2')).toHaveText('Add to Home Screen');
+    await expect(sheet.locator('.cue-list li')).toHaveCount(3);
+    await expect(sheet.locator('.cue-list li').first()).toContainText('Share');
+
+    await sheet.getByRole('button', { name: 'Close' }).click();
+    await expect(sheet).toBeHidden();
+    await expect(page).toHaveURL(/\/(#\/)?$/);
+  });
+
+  test('hiding the install banner is remembered', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Not now' }).click();
+    await expect(page.locator('.install')).toHaveCount(0);
+    await page.reload();
+    await expect(page.locator('.series-card')).toHaveCount(4);
+    await expect(page.locator('.install')).toHaveCount(0);
+  });
 });
 
 for (const id of ['primary', 'intermediate', 'third', 'fourth']) {

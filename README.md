@@ -12,6 +12,7 @@ Built with plain HTML, SCSS and vanilla JavaScript (ES modules), bundled with Vi
 - **Reference sheet** (Photo · Alignment · Modifications) opens as a bottom sheet on phones and as a docked side panel on wide screens. It has previous/next buttons for the whole practice and a YouTube link. Swipe down, tap ×, press Esc or use the phone's back gesture to close it.
 - **Search** filters the list as you type. Matching ignores case, accents, spaces and hyphens, so `supta kurma`, `suptakurm` and `tortoise` all find Supta Kurmasana. Collapsed sections are searched too.
 - **Deep links**: every screen, posture and tab has its own URL, e.g. `#/primary/navasana/alignment`.
+- **Add to Home Screen**: a banner on the home screen opens the browser's install dialog on Android and in desktop Chrome or Edge. iPhone and iPad have no install API, so there it shows the Share → Add to Home Screen steps (`#/install`). The banner hides once the app is installed, when it runs from the Home Screen, or after **×**.
 - Light and dark mode, `prefers-reduced-motion`, `prefers-reduced-transparency`, safe-area insets and 44px tap targets.
 
 ## Getting started
@@ -36,6 +37,8 @@ src/
   lib/data.js        loads JSON, resolves series sections, count badges
   lib/steps.js       expands step templates and numbers each vinyasa
   lib/search.js      accent-insensitive matching and highlighting
+  lib/install.js     Add to Home Screen: install prompt, iOS detection, dismissal
+  lib/storage.js     localStorage that fails quietly
   views/home.js      home screen
   views/series.js    series screen, accordion, search
   views/steps.js     vinyasa list markup

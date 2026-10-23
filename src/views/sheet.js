@@ -1,5 +1,6 @@
 import { youtubeUrl } from '../lib/data.js';
 import { escapeHtml } from '../lib/search.js';
+import { isIOS, isStandalone } from '../lib/install.js';
 import { icon, figure } from '../icons.js';
 
 export const TABS = [
@@ -110,9 +111,42 @@ function aboutContent() {
       <h3>Photos and videos</h3>
       <p>Posture photos are placeholders for now. Video links open a YouTube search for
         Kino MacGregor teaching that posture.</p>
+      ${isStandalone() ? '' : `<h3>Add to your Home Screen</h3>
+      <p>Ashtanga can open like an app, full screen and offline. On iPhone or iPad, tap <b>Share</b>,
+        then <b>Add to Home Screen</b>. On Android, open the browser menu <b>⋮</b> and tap
+        <b>Install app</b> or <b>Add to Home screen</b>.</p>`}
       <h3>Practice safely</h3>
       <p>This guide is a study aid, not a substitute for a qualified teacher or medical advice.
         Traditionally, each new posture is given by a teacher once the previous one is steady.</p>
+    </div>`;
+}
+
+const installSteps = {
+  ios: [
+    ['share', 'Tap <b>Share</b> in the browser toolbar. In Safari on iOS 26, tap <b>⋯</b> first.'],
+    ['addbox', 'Choose <b>Add to Home Screen</b>. You may need to scroll down to find it.'],
+    ['check', 'Tap <b>Add</b>.']
+  ],
+  other: [
+    ['menu', 'Open the browser menu <b>⋮</b>.'],
+    ['addbox', 'Tap <b>Install app</b> or <b>Add to Home screen</b>.'],
+    ['check', 'Tap <b>Install</b>.']
+  ]
+};
+
+function installContent() {
+  const steps = installSteps[isIOS ? 'ios' : 'other'];
+  return `<div class="sheet-grab" aria-hidden="true"></div>
+    <header class="sheet-head">
+      <div class="sheet-titles">
+        <p class="eyebrow">${isIOS ? 'iPhone and iPad' : 'Install'}</p>
+        <h2 id="sheet-title" tabindex="-1" autofocus>Add to Home Screen</h2>
+        <p class="sheet-sub">Ashtanga then opens like an app: full screen, and it works offline.</p>
+      </div>
+      <button type="button" class="icon-btn sheet-close" aria-label="Close">${icon('close')}</button>
+    </header>
+    <div class="sheet-body" tabindex="0">
+      <ol class="cue-list">${steps.map(([name, text]) => `<li>${icon(name)}<span>${text}</span></li>`).join('')}</ol>
     </div>`;
 }
 
@@ -170,13 +204,16 @@ export function openPoseSheet(state, on) {
   show();
 }
 
-export function openAboutSheet(on) {
+function openPage(kind, html, on) {
   handlers = on;
-  setContent(aboutContent());
-  dialog.dataset.kind = 'about';
+  setContent(html);
+  dialog.dataset.kind = kind;
   delete dialog.dataset.key;
   show();
 }
+
+export const openAboutSheet = (on) => openPage('about', aboutContent(), on);
+export const openInstallSheet = (on) => openPage('install', installContent(), on);
 
 /** Close with an exit animation. Resolves once the dialog is closed. */
 export function closeSheet() {

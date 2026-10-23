@@ -1,16 +1,8 @@
 import { getSteps, getParentCount, countBadge, youtubeUrl } from '../lib/data.js';
 import { escapeHtml, highlight, matches } from '../lib/search.js';
 import { renderSteps, holdLabel } from './steps.js';
+import { storage } from '../lib/storage.js';
 import { icon } from '../icons.js';
-
-const storage = {
-  get(key) {
-    try { return localStorage.getItem(key); } catch { return null; }
-  },
-  set(key, value) {
-    try { localStorage.setItem(key, value); } catch { /* private mode */ }
-  }
-};
 
 const collapseKey = (seriesId, sectionId) => `ashtanga:collapsed:${seriesId}:${sectionId}`;
 
